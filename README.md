@@ -43,6 +43,18 @@ opened: official results of past elections, registered voters and published poll
 - **Simczech Lucuma** is analysts' research of sources published before the polls opened: polls and how they
   erred in the past, betting markets, the campaign.
 
+## Experimental series
+
+Beside a prediction we sometimes seal an experimental series. It follows the same rules (only material published
+before the polls opened; sealed before the polls close; revealed when they close), but it is not part of the
+prediction and not shown on the page: it is there to be tested against the result.
+
+- **Simczech Rambutan** (25 October 2026, all three elections): archetype opinions. Groups of voters by their vote
+  in the last comparable election and where they live, sized by the official counts, each answering as a simulated
+  voter: its chance of voting today and the chance of each option. The campaign brief they answer from leaves out the
+  polls and the betting markets. Version `2026-10-25_1417-rambutan`: `prediction.json` (the series' figure and two
+  variants, more deliberation and finer groups), `archetypes*.csv` (every archetype and its answers), `questionnaire.md`.
+
 ## Files of a prediction
 
 - `prediction.json`: the national figures of all three methods (vote shares with 80 % ranges, turnout,
