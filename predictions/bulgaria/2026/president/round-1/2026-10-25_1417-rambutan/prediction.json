@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "nonce": "732cd16df4237da3b63c06a09ffbaa3a",
+ "election": {
+  "id": "bulgaria/2026/president/round-1",
+  "name": "Bulgaria, presidential election, first round",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T19:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T14:17:22+01:00",
+ "cutoff": "2026-10-25T06:00:00+01:00",
+ "series": {
+  "id": "rambutan",
+  "name": "Simczech Rambutan",
+  "experimental": true,
+  "inOriginal": false
+ },
+ "method": "Archetype opinions. Groups of voters by their vote in the last comparable election and where they live, sized by the official counts; each archetype answers in the first person, as a simulated voter, with its chance of voting today and the chance of each option, from a campaign brief that leaves out the polls and the betting markets. National shares = the answers weighted by each archetype's size and chance of voting.",
+ "national": {
+  "shares_pct": {
+   "iotova": 49.3,
+   "gyurov": 19.8,
+   "kostadinov": 11.6,
+   "other": 9.8,
+   "none": 9.5
+  },
+  "archetypes": 71,
+  "answers": 142,
+  "missing_archetypes": 0
+ },
+ "variants": {
+  "high_effort": {
+   "shares_pct": {
+    "iotova": 49.8,
+    "gyurov": 20.0,
+    "kostadinov": 11.4,
+    "other": 9.5,
+    "none": 9.3
+   },
+   "archetypes": 71,
+   "answers": 142,
+   "missing_archetypes": 0,
+   "about": "the same archetypes, answered twice more with more deliberation"
+  },
+  "fine": {
+   "shares_pct": {
+    "iotova": 50.6,
+    "gyurov": 19.2,
+    "kostadinov": 12.1,
+    "other": 9.0,
+    "none": 9.1
+   },
+   "archetypes": 358,
+   "answers": 358,
+   "missing_archetypes": 0,
+   "about": "the same groups by province, district or state, answered once"
+  }
+ },
+ "files": {
+  "archetypes": "archetypes.csv",
+  "high_effort": "archetypes-high-effort.csv",
+  "fine": "archetypes-fine.csv",
+  "questionnaire": "questionnaire.md"
+ },
+ "note": "Experimental: not part of Simczech Original and not shown on the page. Sealed before the polls closed, made only from material published before the polls opened. Turnout is not given."
+}
