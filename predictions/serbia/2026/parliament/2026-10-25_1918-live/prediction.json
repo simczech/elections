@@ -1,0 +1,137 @@
+{
+ "schema": 1,
+ "nonce": "d931f377d13773d1ab1b67c6d94c5b5e",
+ "election": "serbia/2026/parliament",
+ "madeAt": "2026-10-25T19:18:39+01:00",
+ "kind": "live estimate: made during or after voting, with election-day information; not the sealed prediction",
+ "used": "Made during voting, before the polls closed, from the official turnout reports and election-day reporting.",
+ "estimate": {
+  "shares_pct": {
+   "sns": 45.6,
+   "students": 43.0,
+   "sps": 3.2,
+   "authentic_right": 2.0,
+   "european_serbia": 1.4,
+   "svm": 1.3,
+   "other_minority": 2.4,
+   "other": 1.1
+  },
+  "range80_pct": {
+   "sns": [
+    40.1,
+    51.1
+   ],
+   "students": [
+    37.5,
+    48.5
+   ],
+   "sps": [
+    2.3,
+    4.1
+   ],
+   "authentic_right": [
+    1.2,
+    2.8
+   ],
+   "european_serbia": [
+    0.8,
+    2.0
+   ],
+   "svm": [
+    1.0,
+    1.6
+   ],
+   "other_minority": [
+    1.8,
+    3.1
+   ],
+   "other": [
+    0.6,
+    1.6
+   ]
+  },
+  "probabilities_pct": {
+   "p_most_seats": {
+    "sns": 62.4,
+    "students": 37.6
+   },
+   "p_sns_majority": 34.2
+  },
+  "turnout_pct": 71.0,
+  "turnout_range80_pct": [
+   68.0,
+   74.0
+  ],
+  "blank_null_pct": null,
+  "seats": {
+   "sns": 120,
+   "students": 114,
+   "sps": 8,
+   "authentic_right": 0,
+   "european_serbia": 0,
+   "svm": 4,
+   "other_minority": 4,
+   "other": 0
+  }
+ },
+ "key_inputs": [
+  "2026-10-25 18:57 CET: supplied sealed prior anchors vote shares and uncertainty; SNS 47.0%, students 41.1%, turnout 64.6%, SNS most-seats probability 75.5%, SNS majority probability 45.8%.",
+  "2026-10-25 14:31 CET, N1: RIK turnout at noon was 34.55%, versus 21.33% in 2023; CRTA turnout at 13:00 was 41.1% ±0.9 percentage points, versus 26.6%; CeSID/Ipsos turnout at 14:00 was 46.4%, versus 32.2%. These are correlated observations of one turnout surge, not independent partisan signals.",
+  "2026-10-25 15:00 CET, RIK briefing reproduced by the Serbian government: turnout at 14:00 was 46.53%; Vojvodina 49.23%, Belgrade 47.55%, Sumadija and western Serbia 44.95%, southern and eastern Serbia 44.04%.",
+  "2026-10-25 17:00 CET, CRTA: turnout at 16:00 was 56.4% ±0.9 percentage points, compared with its reported 42.1% in 2023; pressures were reported at 29% of polling stations and voting-integrity irregularities at 17%. Irregularity reports increase uncertainty but cannot be converted into a quantified vote adjustment.",
+  "2026-10-25 17:28 CET, RTV/Tanjug update reporting RIK: turnout at 16:00 was 56.38%; Vojvodina 58.76%, Belgrade 57.68%, Sumadija and western Serbia 55.29%, southern and eastern Serbia 53.34%. Agreement with CRTA strengthens the turnout evidence; regional levels alone do not identify party preferences.",
+  "2026-10-25 17:10 CET, 021 reporting CeSID/Ipsos: turnout at 17:00 was 60.8% on a sample of 750 polling stations. Vijesti's 17:21 CET entry compares this with 47.2% at the same hour in 2023 and 58.77% final turnout; adding the full historical late increment would imply 72.4%, discounted here for possible earlier voting and a shrinking turnout advantage.",
+  "2023-12-17 20:47 CET, historical CeSID/Ipsos projection reported by Insajder: at 88.4% sample completion, SNS was estimated at 46.2% and 128 seats; RIK's final result, reported 2024-01-12, was 46.75% and 129 seats. This supports substantial weight for mature sample counts once available, but supplies no vote-share observation for today's pre-close estimate.",
+  "2026-10-25 19:17 CET evidence cutoff: no verified exit poll, national vote projection or partial official vote count was found; no independently verified national 18:00 or 19:00 turnout release was available in the retrieved sources. Post-cutoff evidence is excluded.",
+  "Analytical assumptions at completion: turnout evidence prompts a modest 1.4-point reduction in SNS and 1.9-point increase in students, with broad uncertainty because additional voters' preferences are unobserved. Correlated share scenarios retain approximately the prior's main-party uncertainty and include threshold crossings when estimating seat probabilities.",
+  "Seat-calculation assumptions at completion: D'Hondt is applied to individual lists, with the 3% votes-cast threshold converted using an estimated 2.5% invalid share and minority quotients multiplied by 1.35. The unobserved eight-list composition of other_minority is assumed to be 0.80, 0.60, 0.45, 0.30, 0.10, 0.07, 0.05 and 0.03 percent of valid votes; the displayed seats are conditional on this split. The invalid-share estimate is informed by approximately 2.9% invalid ballots in 2023, not a count from today."
+ ],
+ "sources": [
+  {
+   "url": "https://n1info.rs/english/news/serbia-election-turnout-surpasses-46-percent-by-2-pm-significantly-higher-than-in-2023/",
+   "published": "2026-10-25T14:31:00+01:00",
+   "used_for": "Morning and early-afternoon turnout comparisons with 2023."
+  },
+  {
+   "url": "https://www.srbija.gov.rs/vest/en/290607/voter-turnout-at-4653-by-2-pm.php",
+   "published": "2026-10-25; reports the 15:00 CET briefing",
+   "used_for": "Official national and regional turnout at 14:00."
+  },
+  {
+   "url": "https://crta.rs/1700-izlaznost-do-16-sati-564-odsto-svaka-nepravilnost-moze-da-utice-na-ishod-izbora/",
+   "published": "2026-10-25T17:00:00+01:00",
+   "used_for": "Primary observer turnout estimate, sampling margin, historical comparison and irregularities."
+  },
+  {
+   "url": "https://rtv.rs/sr_lat/izbori-2026/parlamentarni-izbori/rik-izlaznost-do-16-casova-na-parlamentarnim-izborima-56-38-procenata-u-kikindi-i-novom-sadu-izlaznost-veca-od-60-odsto-u-pecincima-72-3-odsto_1754017.html",
+   "published": "2026-10-25T17:28:00+01:00",
+   "used_for": "RIK national and regional turnout at 16:00; nine minority lists."
+  },
+  {
+   "url": "https://www.021.rs/info/srbija/458965/uzivo-izbori-u-srbiji-do-17h-glasalo-60-odsto-biraca-palice-u-dzipu-kod-prostorija-sns-u-lazarevcu",
+   "published": "2026-10-25T17:10:00+01:00",
+   "used_for": "CeSID/Ipsos 17:00 turnout estimate and sample size."
+  },
+  {
+   "url": "https://www.vijesti.me/svijet/balkan/833118/uzivo-vanredni-izbori-u-srbiji-ipsos-i-cesid-izlaznost-do-14-sati-464-odsto/post/1792945289181",
+   "published": "2026-10-25T17:21:00+01:00",
+   "used_for": "2023 turnout at 17:00 and final turnout for late-day extrapolation."
+  },
+  {
+   "url": "https://www.insajder.net/vesti/ipsoscesid-884-odsto-uzorka-sns-462-odsto-spn-237-odsto-glasova-na-parlamentarnim-izborima",
+   "published": "2023-12-17T20:47:00+01:00",
+   "used_for": "Historical sample-count projection accuracy."
+  },
+  {
+   "url": "https://www.rts.rs/lat/vesti/izbori-2023/5344989/rik-rezultati-konacni-izbori-2023.html",
+   "published": "2024-01-12T21:00:00+01:00",
+   "used_for": "Final 2023 result against which the historical projection is compared."
+  },
+  {
+   "url": "https://arhivaizbora.rs/teritorija/RS/srbija/izbori/par2023",
+   "published": "Publication time not stated; historical 2023 results",
+   "used_for": "Historical invalid-ballot baseline."
+  }
+ ],
+ "notes": "The evidence cutoff is 19:17 CET, before polls close, so this remains a prior-based estimate without observed party results. Strong turnout raises expected final participation and supports only a modest, judgmental shift toward students; turnout does not establish who additional voters support. Earlier releases recalibrate the supplied prior rather than count as independent news since 18:57, and wide 80% ranges reflect that limitation. Seat totals are a conditional central scenario, with substantial uncertainty from SPS crossing the threshold and the unknown distribution among minority lists."
+}
