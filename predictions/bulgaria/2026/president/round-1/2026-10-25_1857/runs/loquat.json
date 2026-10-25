@@ -1,0 +1,110 @@
+{
+ "method": "loquat",
+ "election": "bulgaria/2026/president/round-1",
+ "shares_pct": {
+  "iotova": 46.4,
+  "gyurov": 26.7,
+  "kostadinov": 10.6,
+  "other": 13.5,
+  "none": 2.8
+ },
+ "range80_pct": {
+  "iotova": [
+   41.0,
+   51.8
+  ],
+  "gyurov": [
+   22.8,
+   30.6
+  ],
+  "kostadinov": [
+   8.2,
+   13.1
+  ],
+  "other": [
+   10.6,
+   16.3
+  ],
+  "none": [
+   1.9,
+   3.7
+  ]
+ },
+ "probabilities_pct": {
+  "p_first": {
+   "iotova": 99.3,
+   "gyurov": 0.7,
+   "kostadinov": 0.1
+  },
+  "p_top2": {
+   "iotova": 99.9,
+   "gyurov": 99.7,
+   "kostadinov": 0.1
+  },
+  "p_runoff": 99.9
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 39.5,
+ "turnout_range80_pct": [
+  35.9,
+  43.1
+ ],
+ "blank_null_pct": null,
+ "key_inputs": [
+  "Final polls of six pollsters, fieldwork 8-22 Oct 2026, recency-weighted, on a candidates-only base",
+  "Correction for past poll errors: Radev camp under-polled in 2016, 2021 and April 2026 (+2.2 to Iotova), runner-up/PP-DB camp (-1.5 to Gyurov), Vazrazhdane (-0.5 to Kostadinov), shrunk by 0.6",
+  "'I do not support anyone' 2.8 % from polls offering it and the 2021 first round (2.27 %)",
+  "Turnout 39.5 % of voters on the lists from pollsters' expectations (38.1-40 %) and 2021 (40.30 %)",
+  "Official CIK results by polling section of 19 Apr 2026 and 14 Nov 2021 for the municipal layer"
+ ],
+ "sources": [
+  {
+   "url": "https://btvnovinite.bg/bulgaria/sova-haris-sled-balotazh-65-8-za-ilijana-jotova-34-2-za-andrej-gjurov.html",
+   "published": "2026-10-20",
+   "used_for": "Sova Harris poll, fieldwork 13 – 17 Oct 2026, n=1000"
+  },
+  {
+   "url": "https://www.marketlinks.bg/bg/news/obshtestvenopoliticheski-naglasi-oktomvri-2026-120.html",
+   "published": "2026-10-21",
+   "used_for": "Market Links poll, fieldwork 13 – 19 Oct 2026, n=1006"
+  },
+  {
+   "url": "https://rctrend.bg/project/213033",
+   "published": "2026-10-22",
+   "used_for": "Trend poll, fieldwork 14 – 20 Oct 2026, n=1002"
+  },
+  {
+   "url": "https://myara.bg/electoral-snapshot-october-bnr-1946/",
+   "published": "2026-10-22",
+   "used_for": "Myara poll, fieldwork 8 – 19 Oct 2026, n=1009"
+  },
+  {
+   "url": "https://www.gallupinternational.bg/49733/",
+   "published": "2026-10-23",
+   "used_for": "Gallup poll, fieldwork 14 – 22 Oct 2026, n=1001"
+  },
+  {
+   "url": "https://alpharesearch.bg/post/1056-obshtestveni-naglasi-na-finala-na-kampaniata-za-prezidentski-izbori-2026.html",
+   "published": "2026-10-23",
+   "used_for": "Alpha Research poll, fieldwork 18 – 22 Oct 2026, n=1000"
+  },
+  {
+   "url": "https://en.wikipedia.org/w/index.php?oldid=1381824080",
+   "published": "2026-10-25",
+   "used_for": "poll table as of 25 Oct 01:00 UTC (before the polls opened)"
+  },
+  {
+   "url": "https://github.com/atanasster/electionsbg/tree/92cebac27038d94d4e77a5a3c16eba7561136128",
+   "published": "2026-10-25",
+   "used_for": "mirror of CIK section results (Apr 2026, Nov 2021) and archived poll errors 2016-2026; commit of 01:44 UTC"
+  },
+  {
+   "url": "https://results.cik.bg/pe202604/opendata/index.html",
+   "published": "2026-04-20",
+   "used_for": "original source of the April 2026 section data, counted in full on 20 Apr (the site blocks scripts; read through the mirror)"
+  }
+ ],
+ "contamination": "none",
+ "notes": "Recency-weighted average of the six final polls, corrected for the repeated under-polling of the Radev camp and over-polling of the anti-Radev runner-up, then put on the base of all valid ballots with 'I do not support anyone' at 2.8 %. Ranges come from the residual errors of past Bulgarian final polls (heavy-tailed). With turnout expected near 40 % a first-round win is legally impossible unless turnout exceeds 50 %, so a runoff on 1 Nov is near-certain."
+}

@@ -1,0 +1,569 @@
+{
+ "schema": 1,
+ "nonce": "8694cb7d4f2ac4dea6890f4d8775ffad",
+ "election": {
+  "id": "bulgaria/2026/president/round-1",
+  "name": "Bulgaria, presidential election, first round",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T19:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T18:57:08+01:00",
+ "cutoff": "2026-10-25T06:00:00+01:00",
+ "main": "original",
+ "methods": [
+  {
+   "id": "original",
+   "name": "Simczech Original 👑"
+  },
+  {
+   "id": "loquat",
+   "name": "Simczech Loquat"
+  },
+  {
+   "id": "lucuma",
+   "name": "Simczech Lucuma"
+  }
+ ],
+ "options": [
+  {
+   "id": "iotova",
+   "name": "Iliana Iotova",
+   "detail": "with Kiril Valchev · Progressive Bulgaria, BSP and others",
+   "short": "Iotova"
+  },
+  {
+   "id": "gyurov",
+   "name": "Andrey Gyurov",
+   "detail": "with Georgi Kandev · backed by PP and DB",
+   "short": "Gyurov"
+  },
+  {
+   "id": "kostadinov",
+   "name": "Kostadin Kostadinov",
+   "detail": "with Petar Volgin · Vazrazhdane",
+   "short": "Kostadinov"
+  },
+  {
+   "id": "other",
+   "name": "Other candidates",
+   "detail": "the other 24 candidate pairs together",
+   "short": "Others"
+  },
+  {
+   "id": "none",
+   "name": "I do not support anyone",
+   "detail": "the ballot's own option",
+   "short": "None of them"
+  }
+ ],
+ "national": {
+  "original": {
+   "shares_pct": {
+    "iotova": 45.9,
+    "gyurov": 27.5,
+    "kostadinov": 11.1,
+    "other": 12.7,
+    "none": 2.8
+   },
+   "range80_pct": {
+    "iotova": [
+     38.9,
+     53.4
+    ],
+    "gyurov": [
+     22.1,
+     33.1
+    ],
+    "kostadinov": [
+     7.8,
+     14.8
+    ],
+    "other": [
+     8.9,
+     17.2
+    ],
+    "none": [
+     1.7,
+     4.2
+    ]
+   },
+   "probabilities_pct": {
+    "p_first": {
+     "iotova": 97.2,
+     "gyurov": 2.7,
+     "kostadinov": 0.1
+    },
+    "p_top2": {
+     "iotova": 99.7,
+     "gyurov": 98.7,
+     "kostadinov": 1.3
+    },
+    "p_runoff": 98.6
+   },
+   "turnout_pct": 39.5,
+   "turnout_range80_pct": [
+    34.5,
+    44.9
+   ],
+   "blank_null_pct": null,
+   "seats": null,
+   "seats_range80": null
+  },
+  "loquat": {
+   "shares_pct": {
+    "iotova": 46.4,
+    "gyurov": 26.7,
+    "kostadinov": 10.6,
+    "other": 13.5,
+    "none": 2.8
+   },
+   "range80_pct": {
+    "iotova": [
+     41.0,
+     51.8
+    ],
+    "gyurov": [
+     22.8,
+     30.6
+    ],
+    "kostadinov": [
+     8.2,
+     13.1
+    ],
+    "other": [
+     10.6,
+     16.3
+    ],
+    "none": [
+     1.9,
+     3.7
+    ]
+   },
+   "probabilities_pct": {
+    "p_first": {
+     "iotova": 99.3,
+     "gyurov": 0.7,
+     "kostadinov": 0.1
+    },
+    "p_top2": {
+     "iotova": 99.9,
+     "gyurov": 99.7,
+     "kostadinov": 0.1
+    },
+    "p_runoff": 99.9
+   },
+   "seats": null,
+   "seats_range80": null,
+   "turnout_pct": 39.5,
+   "turnout_range80_pct": [
+    35.9,
+    43.1
+   ],
+   "blank_null_pct": null
+  },
+  "lucuma": {
+   "shares_pct": {
+    "iotova": 45.4,
+    "gyurov": 28.2,
+    "kostadinov": 11.5,
+    "other": 12.0,
+    "none": 2.9
+   },
+   "range80_pct": {
+    "iotova": [
+     36.9,
+     54.9
+    ],
+    "gyurov": [
+     21.3,
+     35.7
+    ],
+    "kostadinov": [
+     7.3,
+     16.5
+    ],
+    "other": [
+     7.2,
+     18.1
+    ],
+    "none": [
+     1.5,
+     4.8
+    ]
+   },
+   "probabilities_pct": {
+    "p_first": {
+     "iotova": 95.3,
+     "gyurov": 4.6,
+     "kostadinov": 0.1
+    },
+    "p_top2": {
+     "iotova": 99.6,
+     "gyurov": 97.7,
+     "kostadinov": 2.4
+    },
+    "p_runoff": 97.4
+   },
+   "turnout_pct": 39.4,
+   "turnout_range80_pct": [
+    33.0,
+    46.8
+   ],
+   "blank_null_pct": null,
+   "seats": null,
+   "seats_range80": null
+  }
+ },
+ "regions": [
+  {
+   "code": "ABROAD",
+   "name": "Abroad",
+   "turnout_pct": 89.6,
+   "shares_pct": {
+    "iotova": 36.4,
+    "gyurov": 36.7,
+    "kostadinov": 11.3,
+    "other": 13.7,
+    "none": 2.0
+   }
+  },
+  {
+   "code": "BGS",
+   "name": "Burgas",
+   "turnout_pct": 39.3,
+   "shares_pct": {
+    "iotova": 49.3,
+    "gyurov": 23.9,
+    "kostadinov": 10.8,
+    "other": 13.1,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "BLG",
+   "name": "Blagoevgrad",
+   "turnout_pct": 37.0,
+   "shares_pct": {
+    "iotova": 46.8,
+    "gyurov": 27.1,
+    "kostadinov": 9.4,
+    "other": 13.4,
+    "none": 3.4
+   }
+  },
+  {
+   "code": "DOB",
+   "name": "Dobrich",
+   "turnout_pct": 32.2,
+   "shares_pct": {
+    "iotova": 51.2,
+    "gyurov": 20.0,
+    "kostadinov": 12.7,
+    "other": 13.5,
+    "none": 2.6
+   }
+  },
+  {
+   "code": "GAB",
+   "name": "Gabrovo",
+   "turnout_pct": 39.3,
+   "shares_pct": {
+    "iotova": 48.1,
+    "gyurov": 21.8,
+    "kostadinov": 13.1,
+    "other": 14.1,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "HKV",
+   "name": "Haskovo",
+   "turnout_pct": 38.0,
+   "shares_pct": {
+    "iotova": 53.4,
+    "gyurov": 22.0,
+    "kostadinov": 9.8,
+    "other": 11.8,
+    "none": 3.0
+   }
+  },
+  {
+   "code": "JAM",
+   "name": "Yambol",
+   "turnout_pct": 38.9,
+   "shares_pct": {
+    "iotova": 56.3,
+    "gyurov": 17.0,
+    "kostadinov": 11.7,
+    "other": 12.6,
+    "none": 2.5
+   }
+  },
+  {
+   "code": "KNL",
+   "name": "Kyustendil",
+   "turnout_pct": 35.4,
+   "shares_pct": {
+    "iotova": 50.0,
+    "gyurov": 22.3,
+    "kostadinov": 11.5,
+    "other": 13.1,
+    "none": 3.0
+   }
+  },
+  {
+   "code": "KRZ",
+   "name": "Kardzhali",
+   "turnout_pct": 18.9,
+   "shares_pct": {
+    "iotova": 42.8,
+    "gyurov": 30.7,
+    "kostadinov": 7.7,
+    "other": 14.0,
+    "none": 4.8
+   }
+  },
+  {
+   "code": "LOV",
+   "name": "Lovech",
+   "turnout_pct": 38.9,
+   "shares_pct": {
+    "iotova": 49.6,
+    "gyurov": 21.6,
+    "kostadinov": 11.2,
+    "other": 14.6,
+    "none": 3.0
+   }
+  },
+  {
+   "code": "MON",
+   "name": "Montana",
+   "turnout_pct": 40.5,
+   "shares_pct": {
+    "iotova": 50.5,
+    "gyurov": 20.5,
+    "kostadinov": 12.5,
+    "other": 13.6,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "PAZ",
+   "name": "Pazardzhik",
+   "turnout_pct": 36.4,
+   "shares_pct": {
+    "iotova": 52.1,
+    "gyurov": 21.0,
+    "kostadinov": 10.9,
+    "other": 13.3,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "PDV",
+   "name": "Plovdiv",
+   "turnout_pct": 40.9,
+   "shares_pct": {
+    "iotova": 48.5,
+    "gyurov": 25.5,
+    "kostadinov": 11.0,
+    "other": 12.3,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "PER",
+   "name": "Pernik",
+   "turnout_pct": 43.9,
+   "shares_pct": {
+    "iotova": 49.0,
+    "gyurov": 22.8,
+    "kostadinov": 12.2,
+    "other": 13.0,
+    "none": 3.0
+   }
+  },
+  {
+   "code": "PVN",
+   "name": "Pleven",
+   "turnout_pct": 37.8,
+   "shares_pct": {
+    "iotova": 52.4,
+    "gyurov": 19.6,
+    "kostadinov": 11.1,
+    "other": 14.2,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "RAZ",
+   "name": "Razgrad",
+   "turnout_pct": 27.6,
+   "shares_pct": {
+    "iotova": 43.9,
+    "gyurov": 33.4,
+    "kostadinov": 8.3,
+    "other": 11.2,
+    "none": 3.1
+   }
+  },
+  {
+   "code": "RSE",
+   "name": "Ruse",
+   "turnout_pct": 36.7,
+   "shares_pct": {
+    "iotova": 49.2,
+    "gyurov": 22.4,
+    "kostadinov": 11.9,
+    "other": 13.6,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "SFO",
+   "name": "Sofia Province",
+   "turnout_pct": 44.7,
+   "shares_pct": {
+    "iotova": 49.9,
+    "gyurov": 22.1,
+    "kostadinov": 11.1,
+    "other": 13.9,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "SHU",
+   "name": "Shumen",
+   "turnout_pct": 29.3,
+   "shares_pct": {
+    "iotova": 46.5,
+    "gyurov": 26.1,
+    "kostadinov": 10.7,
+    "other": 13.7,
+    "none": 3.1
+   }
+  },
+  {
+   "code": "SLS",
+   "name": "Silistra",
+   "turnout_pct": 32.6,
+   "shares_pct": {
+    "iotova": 51.5,
+    "gyurov": 21.6,
+    "kostadinov": 10.0,
+    "other": 13.5,
+    "none": 3.3
+   }
+  },
+  {
+   "code": "SLV",
+   "name": "Sliven",
+   "turnout_pct": 32.0,
+   "shares_pct": {
+    "iotova": 51.6,
+    "gyurov": 20.8,
+    "kostadinov": 11.8,
+    "other": 13.1,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "SML",
+   "name": "Smolyan",
+   "turnout_pct": 41.6,
+   "shares_pct": {
+    "iotova": 55.6,
+    "gyurov": 22.4,
+    "kostadinov": 8.0,
+    "other": 10.9,
+    "none": 3.0
+   }
+  },
+  {
+   "code": "SOF",
+   "name": "Sofia City",
+   "turnout_pct": 43.2,
+   "shares_pct": {
+    "iotova": 34.7,
+    "gyurov": 41.0,
+    "kostadinov": 10.8,
+    "other": 10.9,
+    "none": 2.6
+   }
+  },
+  {
+   "code": "SZR",
+   "name": "Stara Zagora",
+   "turnout_pct": 40.7,
+   "shares_pct": {
+    "iotova": 50.2,
+    "gyurov": 21.2,
+    "kostadinov": 12.3,
+    "other": 13.6,
+    "none": 2.7
+   }
+  },
+  {
+   "code": "TGV",
+   "name": "Targovishte",
+   "turnout_pct": 29.7,
+   "shares_pct": {
+    "iotova": 50.1,
+    "gyurov": 21.8,
+    "kostadinov": 10.2,
+    "other": 14.4,
+    "none": 3.5
+   }
+  },
+  {
+   "code": "VAR",
+   "name": "Varna",
+   "turnout_pct": 41.2,
+   "shares_pct": {
+    "iotova": 43.8,
+    "gyurov": 27.1,
+    "kostadinov": 13.6,
+    "other": 12.8,
+    "none": 2.6
+   }
+  },
+  {
+   "code": "VID",
+   "name": "Vidin",
+   "turnout_pct": 36.4,
+   "shares_pct": {
+    "iotova": 46.2,
+    "gyurov": 27.4,
+    "kostadinov": 11.0,
+    "other": 12.6,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "VRC",
+   "name": "Vratsa",
+   "turnout_pct": 42.0,
+   "shares_pct": {
+    "iotova": 54.7,
+    "gyurov": 19.5,
+    "kostadinov": 10.1,
+    "other": 12.8,
+    "none": 2.9
+   }
+  },
+  {
+   "code": "VTR",
+   "name": "Veliko Tarnovo",
+   "turnout_pct": 40.1,
+   "shares_pct": {
+    "iotova": 52.3,
+    "gyurov": 20.0,
+    "kostadinov": 11.9,
+    "other": 13.2,
+    "none": 2.6
+   }
+  }
+ ],
+ "municipalFile": "municipalities.csv",
+ "note": "Second version, made before the polls closed: the same three methods with four more research runs (six in all), turnout as in the first version. The first version, sealed at 11:57 CET, is also on GitHub."
+}

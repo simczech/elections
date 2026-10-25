@@ -1,0 +1,143 @@
+{
+ "method": "bg-lucuma-3",
+ "election": "bulgaria/2026/president/round-1",
+ "shares_pct": {
+  "iotova": 46.2,
+  "gyurov": 27.9,
+  "kostadinov": 11.4,
+  "other": 11.7,
+  "none": 2.8
+ },
+ "range80_pct": {
+  "iotova": [
+   38.0,
+   55.0
+  ],
+  "gyurov": [
+   21.3,
+   35.5
+  ],
+  "kostadinov": [
+   7.3,
+   16.1
+  ],
+  "other": [
+   7.2,
+   17.8
+  ],
+  "none": [
+   1.5,
+   4.5
+  ]
+ },
+ "probabilities_pct": {
+  "p_first": {
+   "iotova": 96.0,
+   "gyurov": 3.8,
+   "kostadinov": 0.1
+  },
+  "p_top2": {
+   "iotova": 99.7,
+   "gyurov": 98.3,
+   "kostadinov": 1.6
+  },
+  "p_runoff": 96.8
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 40.8,
+ "turnout_range80_pct": [
+  34.5,
+  48.0
+ ],
+ "blank_null_pct": null,
+ "key_inputs": [
+  "Greatest weight goes to final Alpha Research, Trend and Myara waves, each with approximately 1,000 respondents; Alpha's 18–22 October fieldwork is especially timely.",
+  "Market Links provides a useful secondary check: multiplying its candidate-only shares by 0.962 gives approximately 45.5% Iotova, 29.4% Gyurov and 9.9% Kostadinov on the required base.",
+  "Gallup's 2.2% undecided is removed before normalization; its 0.4% none reading receives limited weight. Sova's candidate-only figures require an estimated none allowance, while Trend's unspecified treatment adds denominator uncertainty.",
+  "All pollsters show a narrowing lead, but 2021 polls generally understated Radev and April 2026 polls substantially understated Progressive Bulgaria; these are shared-error risks that additional polls cannot eliminate.",
+  "GERB and DPS have no tickets or national endorsements, leaving unusually uncertain participation and vote transfers; local GERB support supplies some upside for Iotova.",
+  "Most comparable turnout estimates cluster around 38–40%; Trend's 47% of resident adults is not equivalent to turnout among approximately 6.59 million registered electors.",
+  "The market's 95.5% probability of Iotova finishing first and 3.7% probability of an outright first-round win are secondary checks, with limited confidence given thin trading.",
+  "Ranges are marginal 80% judgment intervals; p_first means finishing first in this round, not winning the presidency outright."
+ ],
+ "sources": [
+  {
+   "url": "https://www.cik.bg/bg/decisions/268/2026-09-23",
+   "published": "2026-09-23",
+   "used_for": "Factsheet ballot composition and candidate registrations."
+  },
+  {
+   "url": "https://alpharesearch.bg/post/1056-obshtestveni-naglasi-na-finala-na-kampaniata-za-prezidentski-izbori-2026.html",
+   "published": "2026-10-23",
+   "used_for": "Latest self-funded poll, campaign trend, turnout and late-deciding GERB/DPS voters."
+  },
+  {
+   "url": "https://bnrnews.bg/shumen/post/546233/trend-yotova-valchev-s-459percent-gyurov-kandev-s-278percent",
+   "published": "2026-10-23",
+   "used_for": "Trend final shares, fieldwork and resident-adult turnout denominator."
+  },
+  {
+   "url": "https://euronews.bg/news/predninata-na-iotova-pred-gyurov-se-stopi-do-pod-15-izmeri-agentsiya-myara/",
+   "published": "2026-10-22",
+   "used_for": "Myara final shares, none option and turnout."
+  },
+  {
+   "url": "https://www.bta.bg/bg/news/bulgaria/national-news/1229642",
+   "published": "2026-10-21",
+   "used_for": "Market Links candidate-only shares, separate none share and turnout range."
+  },
+  {
+   "url": "https://www.gallupinternational.bg/49733/",
+   "published": "2026-10-23",
+   "used_for": "Gallup final shares, undecided category and turnout."
+  },
+  {
+   "url": "https://bnrnews.bg/plovdiv/post/544703/sova-haris-yotova-492percent-gyurov-248percent-kostadinov-95percent",
+   "published": "2026-10-20",
+   "used_for": "Sova final candidate-only shares, earlier fieldwork and turnout."
+  },
+  {
+   "url": "old.mediapool.bg",
+   "published": "2021-11-17",
+   "used_for": "Factsheet comparison of 2021 presidential polling with results; only the domain was supplied."
+  },
+  {
+   "url": "https://www.marica.bg/tema-v-razvitie/izbori-2026/votat-zasrami-sociolozite-nikoy-ne-hvana-valnata",
+   "published": "2026-04-22",
+   "used_for": "Large shared polling error against Progressive Bulgaria in April 2026."
+  },
+  {
+   "url": "https://www.cross.bg/mandata-glasa-obyavi-1795395.html",
+   "published": "2026-04-23",
+   "used_for": "Progressive Bulgaria's parliamentary strength and April turnout context."
+  },
+  {
+   "url": "https://dnes.dir.bg/politika/6-59-mln-dushi-sa-s-pravo-na-glas-na-prezidentskiya-vot-46-hil-vlizat-za-parvi-pat-v-spisatsite",
+   "published": "2026-10-20",
+   "used_for": "Registered-elector denominator."
+  },
+  {
+   "url": "sofiaglobe.com",
+   "published": "2026-10-23",
+   "used_for": "Factsheet late-campaign developments; only the domain was supplied."
+  },
+  {
+   "url": "flagman.bg",
+   "published": "2026-10-23",
+   "used_for": "Factsheet campaign and local GERB support context; only the domain was supplied."
+  },
+  {
+   "url": "polymarkettrader.com",
+   "published": "2026-10-20",
+   "used_for": "First-place market probability and trading volume; only the domain was supplied."
+  },
+  {
+   "url": "lines.com",
+   "published": "2026-10-22",
+   "used_for": "Market probability of an outright first-round victory; only the domain was supplied."
+  }
+ ],
+ "contamination": "none (offline from the factsheet)",
+ "notes": "I give the latest Alpha, Trend and Myara surveys the most weight, with secondary weight on Market Links and Gallup and limited weight on Sova's earlier, relatively Iotova-friendly reading. After denominator adjustments, I add roughly 2–3 points to Iotova's polling baseline because comparable presidential polling and April's parliamentary polling understated the Radev-aligned vote. The sustained narrowing and late security controversy restrain that correction, while uncertain GERB/DPS participation and historical shared errors justify broad ranges. The turnout forecast uses registered electors and allows a substantial mobilization surprise above the roughly 38–40% survey cluster. Positively correlated turnout and Iotova-support surprises produce a 3.2% chance of clearing both first-round victory thresholds, leaving a runoff overwhelmingly likely."
+}

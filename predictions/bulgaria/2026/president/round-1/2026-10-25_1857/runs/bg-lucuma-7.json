@@ -1,0 +1,137 @@
+{
+ "method": "bg-lucuma-7",
+ "election": "bulgaria/2026/president/round-1",
+ "shares_pct": {
+  "iotova": 45.1,
+  "gyurov": 28.0,
+  "kostadinov": 11.6,
+  "other": 12.3,
+  "none": 3.0
+ },
+ "range80_pct": {
+  "iotova": [
+   36.5,
+   54.5
+  ],
+  "gyurov": [
+   21.0,
+   35.5
+  ],
+  "kostadinov": [
+   7.7,
+   16.2
+  ],
+  "other": [
+   7.7,
+   18.0
+  ],
+  "none": [
+   1.4,
+   5.4
+  ]
+ },
+ "probabilities_pct": {
+  "p_first": {
+   "iotova": 96.0,
+   "gyurov": 3.8,
+   "kostadinov": 0.2
+  },
+  "p_top2": {
+   "iotova": 99.5,
+   "gyurov": 97.8,
+   "kostadinov": 2.5
+  },
+  "p_runoff": 97.0
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 40.5,
+ "turnout_range80_pct": [
+  33.0,
+  48.5
+ ],
+ "blank_null_pct": null,
+ "key_inputs": [
+  "Recent Alpha, Trend and Myara receive the greatest weight, with Market Links and Gallup supplementary and Sova downweighted; sample sizes near 1,000 offer little basis for distinguishing precision.",
+  "Alpha's explicit all-valid-ballot figures are 41.1/28.3/12.8, other 15.2 and none 2.6; every pollster reports a narrowing Iotova–Gyurov gap.",
+  "Market Links becomes approximately 45.5/29.4/9.9 after including its separately reported 3.8% none vote; other candidate-only figures require comparable adjustment, and Gallup's undecided respondents cannot remain in the valid-ballot denominator.",
+  "Most 2021 final polls underestimated Radev by roughly 1–5 points and overestimated Gerdzhikov by up to 5.5; April 2026 polls underestimated Progressive Bulgaria by roughly 10–14 points, or 6.6 against Market Links' adjusted forecast.",
+  "Registered-voter turnout forecasts cluster around 38–40%; Trend's 47% resident-adult figure is not directly comparable, while April's 50.7% turnout supports a meaningful mobilisation tail.",
+  "GERB and DPS have no nominees, leaving uncertain voter transfers; late security controversies could affect mobilisation and the incumbent-backed ticket.",
+  "Thin markets provide a cross-check: Iotova had a 95.5% first-place probability on 20 October, while any outright first-round win was approximately 3.7% on 22 October."
+ ],
+ "sources": [
+  {
+   "url": "https://alpharesearch.bg/post/1056-obshtestveni-naglasi-na-finala-na-kampaniata-za-prezidentski-izbori-2026.html",
+   "published": "2026-10-23",
+   "used_for": "Final poll, campaign trend, explicit ballot denominator and turnout forecast."
+  },
+  {
+   "url": "https://bnrnews.bg/shumen/post/546233/trend-yotova-valchev-s-459percent-gyurov-kandev-s-278percent",
+   "published": "2026-10-23",
+   "used_for": "Trend final poll and resident-adult turnout denominator."
+  },
+  {
+   "url": "https://euronews.bg/news/predninata-na-iotova-pred-gyurov-se-stopi-do-pod-15-izmeri-agentsiya-myara/",
+   "published": "2026-10-22",
+   "used_for": "Myara final poll, narrowing lead, none share and turnout."
+  },
+  {
+   "url": "https://www.bta.bg/bg/news/bulgaria/national-news/1229642",
+   "published": "2026-10-21",
+   "used_for": "Market Links candidate-only shares, separate none vote and turnout range."
+  },
+  {
+   "url": "https://www.gallupinternational.bg/49733/",
+   "published": "2026-10-23",
+   "used_for": "Gallup final poll, undecided respondents and turnout."
+  },
+  {
+   "url": "https://bnrnews.bg/plovdiv/post/544703/sova-haris-yotova-492percent-gyurov-kandev-s-248percent-kostadinov-95percent",
+   "published": "2026-10-20",
+   "used_for": "Sova candidate-only estimates, fieldwork timing, sponsor and turnout."
+  },
+  {
+   "url": "old.mediapool.bg",
+   "published": "2021-11-17",
+   "used_for": "Comparable presidential polling errors and Sova's outlying forecast."
+  },
+  {
+   "url": "https://www.marica.bg/tema-v-razvitie/izbori-2026/votat-zasrami-sociolozite-nikoy-ne-hvana-valnata",
+   "published": "2026-04-22",
+   "used_for": "Large shared polling underestimate of Progressive Bulgaria."
+  },
+  {
+   "url": "https://www.cross.bg/mandata-glasa-obyavi-1795395.html",
+   "published": "2026-04-23",
+   "used_for": "April parliamentary result and turnout benchmark."
+  },
+  {
+   "url": "https://www.cik.bg/bg/decisions/268/2026-09-23",
+   "published": "2026-09-23",
+   "used_for": "Candidate roster and ballot identification."
+  },
+  {
+   "url": "https://campaigns.darik.bg/kampanii/osnovnite-kandidati-za-prezident-2026/",
+   "published": "2026-10-22",
+   "used_for": "Candidate backing and absence of GERB and DPS nominees."
+  },
+  {
+   "url": "sofiaglobe.com",
+   "published": "2026-10-23",
+   "used_for": "Late campaign developments and security-related uncertainty."
+  },
+  {
+   "url": "polymarkettrader.com",
+   "published": "2026-10-20",
+   "used_for": "Iotova first-place market probability and limited trading volume."
+  },
+  {
+   "url": "lines.com",
+   "published": "2026-10-22",
+   "used_for": "Market cross-check on an outright first-round victory."
+  }
+ ],
+ "contamination": "none (offline from the factsheet)",
+ "notes": "I emphasize recent polls with clear denominators and discount Sova's high-Iotova estimate given its 2021 outlier, treating the surveys as correlated evidence. The narrowing lead limits the upward adjustment, but repeated underestimation of Radev's support and April's much larger miss justify a modest Iotova uplift without transferring that parliamentary error wholesale. GERB and DPS voters without party nominees, together with late security controversies, create substantial uncertainty about transfers and mobilisation. The marginal 80% ranges incorporate historical shared polling errors, denominator uncertainty and turnout differences rather than sampling error alone. A turnout forecast of 40.5% makes a runoff highly likely, with the small outright-win probability allowing an Iotova surge accompanied by turnout above 50%."
+}
