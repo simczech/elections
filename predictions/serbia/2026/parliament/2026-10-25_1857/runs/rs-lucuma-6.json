@@ -1,0 +1,174 @@
+{
+ "method": "rs-lucuma-6",
+ "election": "serbia/2026/parliament",
+ "shares_pct": {
+  "sns": 46.5,
+  "students": 41.8,
+  "sps": 3.7,
+  "authentic_right": 2.1,
+  "european_serbia": 1.5,
+  "svm": 1.3,
+  "other_minority": 2.3,
+  "other": 0.8
+ },
+ "range80_pct": {
+  "sns": [
+   39.4,
+   53.2
+  ],
+  "students": [
+   35.0,
+   49.1
+  ],
+  "sps": [
+   2.4,
+   5.0
+  ],
+  "authentic_right": [
+   1.0,
+   3.3
+  ],
+  "european_serbia": [
+   0.6,
+   2.6
+  ],
+  "svm": [
+   1.0,
+   1.7
+  ],
+  "other_minority": [
+   1.6,
+   3.2
+  ],
+  "other": [
+   0.3,
+   1.5
+  ]
+ },
+ "probabilities_pct": {
+  "p_most_seats": {
+   "sns": 68.0,
+   "students": 32.0
+  },
+  "p_sns_majority": 40.0
+ },
+ "seats": {
+  "sns": 122,
+  "students": 110,
+  "sps": 9,
+  "authentic_right": 0,
+  "european_serbia": 0,
+  "svm": 4,
+  "other_minority": 5,
+  "other": 0
+ },
+ "seats_range80": {
+  "sns": [
+   103,
+   142
+  ],
+  "students": [
+   91,
+   131
+  ],
+  "sps": [
+   0,
+   13
+  ],
+  "authentic_right": [
+   0,
+   8
+  ],
+  "european_serbia": [
+   0,
+   0
+  ],
+  "svm": [
+   3,
+   6
+  ],
+  "other_minority": [
+   3,
+   8
+  ],
+  "other": [
+   0,
+   0
+  ]
+ },
+ "turnout_pct": 64.5,
+ "turnout_range80_pct": [
+  59.0,
+  70.0
+ ],
+ "blank_null_pct": null,
+ "key_inputs": [
+  "Ipsos, fieldwork 20–22 October, n=3,624: dividing by 0.975 converts its all-ballot estimates to valid-vote shares of SNS 48.6%, students 41.0% and SPS 3.3%. Its recency and sample size receive substantial weight, tempered by SNS sponsorship and exclusion of Kosovo and overseas voters.",
+  "NSPM's older telephone survey gives students 44.5% and SNS 42.7%, but includes an unallocated anti-government category and does not separately identify minority lists. Nacija's 42.9% SNS and 42.0% students receive limited weight because recruitment used social-media advertising and 22% were undecided.",
+  "September Faktor Plus favors SNS 48.6% to 37.1%; June CRTA favors students 44.9% to 35.7%. Both are substantially discounted for age, while their disagreement informs uncertainty.",
+  "Historical calibration allows errors in either direction: Ipsos overstated SNS by approximately 8.6 points in 2022 and understated it by 2.1 points in 2023; NSPM understated SNS by 8.3 points in 2023.",
+  "The reported October betting-market movement toward approximately 69% probability of SNS winning most seats supports SNS favoritism as a secondary cross-check.",
+  "Seat allocation uses 250 seats, D'Hondt, the 3% threshold measured against all ballots cast, and the 35% minority quotient increase. A working assumption of 2.5% invalid ballots makes the ordinary threshold approximately 3.08% of valid votes.",
+  "For the point seat allocation, the eight other minority lists are assumed to receive 0.70%, 0.50%, 0.40%, 0.35%, 0.12%, 0.10%, 0.08% and 0.05% individually. The four remaining ordinary lists are individually below threshold; aggregate categories are not treated as single lists.",
+  "Turnout is centered near Ipsos's 64.7%, above the 2023 official 58.77%, with substantial uncertainty about mobilization and the registered electorate. The denominator is the instructed 6,450,523 registered voters."
+ ],
+ "sources": [
+  {
+   "url": "https://www.ipsos.com/sr-rs/rezultati-istrazivanja-pred-parlamentarne-izbore-oktobar-2026",
+   "published": "2026-10-22",
+   "used_for": "Latest poll, sample and sponsorship, ballot denominator, geographic coverage and turnout estimate."
+  },
+  {
+   "url": "https://www.nspm.rs/istrazivanja-javnog-mnjenja/srbija-jesen-2026.-i.html",
+   "published": "2026-10-20",
+   "used_for": "Older telephone poll, student strength and unresolved voter preferences."
+  },
+  {
+   "url": "nacija.net",
+   "published": "2026-10-21",
+   "used_for": "Recent close-race poll, recruitment limitations and undecided share."
+  },
+  {
+   "url": "tanjug.rs",
+   "published": "2026-09-21",
+   "used_for": "September Faktor Plus vote and turnout estimates."
+  },
+  {
+   "url": "crta.rs",
+   "published": "2026-07-15",
+   "used_for": "Older face-to-face survey indicating substantial student support."
+  },
+  {
+   "url": "https://www.srbija.gov.rs/vest/en/217560/election-commission-announces-final-results-of-parliamentary-elections.php",
+   "published": "2024-01-12",
+   "used_for": "2023 official vote shares, seats, turnout and invalid ballots."
+  },
+  {
+   "url": "ipsos.com",
+   "published": "2023-12-14",
+   "used_for": "2023 final poll and historical SNS underestimation."
+  },
+  {
+   "url": "nspm.rs",
+   "published": "2023-12-12",
+   "used_for": "2023 final poll and substantial historical SNS underestimation."
+  },
+  {
+   "url": "ipsos.com",
+   "published": "2022-03-31",
+   "used_for": "2022 final poll and the factsheet's historical overestimation comparison."
+  },
+  {
+   "url": "rijekadanas.com",
+   "published": "2026-10-22",
+   "used_for": "Pre-election betting-market cross-check."
+  },
+  {
+   "url": "https://www.rik.parlament.gov.rs/extfile/en/1638/",
+   "published": "2023-12-13",
+   "used_for": "Electoral rules in the combined RIK/IFES factsheet item; the date is the accompanying IFES FAQ date, while the linked law is from 2022."
+  }
+ ],
+ "contamination": "none (offline from the factsheet)",
+ "notes": "The recent, large Ipsos survey receives the most weight after denominator correction, but its sponsorship and the conflicting independent surveys justify a lower SNS estimate than its headline implies. Incumbent organization favors SNS, while student consolidation and stronger turnout make an opposition plurality plausible. The 80% intervals reflect Serbia's large historical polling errors in both directions, rather than sampling error alone. Markets provide a secondary check on SNS favoritism, while uncertain threshold crossings make an SNS majority substantially less likely than winning the most seats. Seat ranges are marginal judgment intervals, and a zero-to-zero interval still permits a small probability of crossing the threshold."
+}

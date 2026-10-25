@@ -1,0 +1,872 @@
+{
+ "schema": 1,
+ "nonce": "be5e3b8395705ea1121d96309733a438",
+ "election": {
+  "id": "serbia/2026/parliament",
+  "name": "Serbia, National Assembly election",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T20:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T18:57:57+01:00",
+ "cutoff": "2026-10-25T07:00:00+01:00",
+ "main": "original",
+ "methods": [
+  {
+   "id": "original",
+   "name": "Simczech Original 👑"
+  },
+  {
+   "id": "loquat",
+   "name": "Simczech Loquat"
+  },
+  {
+   "id": "lucuma",
+   "name": "Simczech Lucuma"
+  }
+ ],
+ "options": [
+  {
+   "id": "sns",
+   "name": "Aleksandar Vučić – Ujedinjena Srbija",
+   "detail": "SNS, PUPS, SRS and others",
+   "short": "SNS list"
+  },
+  {
+   "id": "students",
+   "name": "Studentska lista – Studenti pobeđuju",
+   "detail": "the student list",
+   "short": "Student list"
+  },
+  {
+   "id": "sps",
+   "name": "Ivica Dačić – Faktor stabilnosti",
+   "detail": "SPS, JS and others",
+   "short": "SPS list"
+  },
+  {
+   "id": "authentic_right",
+   "name": "Autentična desnica",
+   "detail": "Miloš Jovanović",
+   "short": "Authentic Right"
+  },
+  {
+   "id": "european_serbia",
+   "name": "Evropska Srbija",
+   "detail": "Tepić and Ponoš",
+   "short": "European Serbia"
+  },
+  {
+   "id": "svm",
+   "name": "SVM",
+   "detail": "Hungarian minority list",
+   "short": "SVM"
+  },
+  {
+   "id": "other_minority",
+   "name": "Other minority lists",
+   "detail": "eight lists together",
+   "short": "Other minority lists"
+  },
+  {
+   "id": "other",
+   "name": "Other lists",
+   "detail": "together",
+   "short": "Other lists"
+  }
+ ],
+ "national": {
+  "original": {
+   "shares_pct": {
+    "sns": 47.0,
+    "students": 41.1,
+    "sps": 3.4,
+    "authentic_right": 2.1,
+    "european_serbia": 1.5,
+    "svm": 1.4,
+    "other_minority": 2.4,
+    "other": 1.1
+   },
+   "range80_pct": {
+    "sns": [
+     41.1,
+     52.7
+    ],
+    "students": [
+     35.3,
+     46.9
+    ],
+    "sps": [
+     2.4,
+     4.7
+    ],
+    "authentic_right": [
+     1.2,
+     3.1
+    ],
+    "european_serbia": [
+     0.8,
+     2.4
+    ],
+    "svm": [
+     1.1,
+     1.8
+    ],
+    "other_minority": [
+     1.7,
+     3.2
+    ],
+    "other": [
+     0.6,
+     1.8
+    ]
+   },
+   "probabilities_pct": {
+    "p_most_seats": {
+     "sns": 75.5,
+     "students": 24.5
+    },
+    "p_sns_majority": 45.8
+   },
+   "turnout_pct": 64.6,
+   "turnout_range80_pct": [
+    60.2,
+    69.0
+   ],
+   "blank_null_pct": null,
+   "seats": {
+    "sns": 124,
+    "students": 108,
+    "sps": 9,
+    "authentic_right": 0,
+    "european_serbia": 0,
+    "svm": 5,
+    "other_minority": 4,
+    "other": 0
+   },
+   "seats_range80": {
+    "sns": [
+     108,
+     140
+    ],
+    "students": [
+     93,
+     125
+    ],
+    "sps": [
+     0,
+     12
+    ],
+    "authentic_right": [
+     0,
+     4
+    ],
+    "european_serbia": [
+     0,
+     1
+    ],
+    "svm": [
+     4,
+     6
+    ],
+    "other_minority": [
+     3,
+     8
+    ],
+    "other": [
+     0,
+     0
+    ]
+   }
+  },
+  "loquat": {
+   "shares_pct": {
+    "sns": 47.5,
+    "students": 40.2,
+    "sps": 3.3,
+    "authentic_right": 2.0,
+    "european_serbia": 1.5,
+    "svm": 1.5,
+    "other_minority": 2.8,
+    "other": 1.2
+   },
+   "range80_pct": {
+    "sns": [
+     42.1,
+     52.8
+    ],
+    "students": [
+     35.1,
+     45.5
+    ],
+    "sps": [
+     2.3,
+     4.5
+    ],
+    "authentic_right": [
+     1.3,
+     2.8
+    ],
+    "european_serbia": [
+     0.9,
+     2.1
+    ],
+    "svm": [
+     1.2,
+     1.9
+    ],
+    "other_minority": [
+     2.0,
+     3.5
+    ],
+    "other": [
+     0.7,
+     1.9
+    ]
+   },
+   "probabilities_pct": {
+    "p_most_seats": {
+     "sns": 81.2,
+     "students": 18.8
+    },
+    "p_sns_majority": 52.5
+   },
+   "seats": {
+    "sns": 125,
+    "students": 106,
+    "sps": 8,
+    "authentic_right": 0,
+    "european_serbia": 0,
+    "svm": 5,
+    "other_minority": 6,
+    "other": 0
+   },
+   "seats_range80": {
+    "sns": [
+     112,
+     141
+    ],
+    "students": [
+     93,
+     121
+    ],
+    "sps": [
+     0,
+     11
+    ],
+    "authentic_right": [
+     0,
+     0
+    ],
+    "european_serbia": [
+     0,
+     0
+    ],
+    "svm": [
+     4,
+     6
+    ],
+    "other_minority": [
+     4,
+     9
+    ],
+    "other": [
+     0,
+     0
+    ]
+   },
+   "turnout_pct": 64.2,
+   "turnout_range80_pct": [
+    60.4,
+    68.0
+   ],
+   "blank_null_pct": null
+  },
+  "lucuma": {
+   "shares_pct": {
+    "sns": 46.5,
+    "students": 41.9,
+    "sps": 3.6,
+    "authentic_right": 2.2,
+    "european_serbia": 1.4,
+    "svm": 1.4,
+    "other_minority": 2.1,
+    "other": 0.9
+   },
+   "range80_pct": {
+    "sns": [
+     40.1,
+     52.6
+    ],
+    "students": [
+     35.4,
+     48.4
+    ],
+    "sps": [
+     2.4,
+     4.9
+    ],
+    "authentic_right": [
+     1.1,
+     3.5
+    ],
+    "european_serbia": [
+     0.7,
+     2.7
+    ],
+    "svm": [
+     1.0,
+     1.7
+    ],
+    "other_minority": [
+     1.5,
+     2.9
+    ],
+    "other": [
+     0.5,
+     1.7
+    ]
+   },
+   "probabilities_pct": {
+    "p_most_seats": {
+     "sns": 69.7,
+     "students": 30.3
+    },
+    "p_sns_majority": 39.0
+   },
+   "turnout_pct": 65.0,
+   "turnout_range80_pct": [
+    60.0,
+    70.0
+   ],
+   "blank_null_pct": null,
+   "seats": {
+    "sns": 122,
+    "students": 110,
+    "sps": 9,
+    "authentic_right": 0,
+    "european_serbia": 0,
+    "svm": 4,
+    "other_minority": 5,
+    "other": 0
+   },
+   "seats_range80": {
+    "sns": [
+     105,
+     139
+    ],
+    "students": [
+     93,
+     128
+    ],
+    "sps": [
+     0,
+     12
+    ],
+    "authentic_right": [
+     0,
+     9
+    ],
+    "european_serbia": [
+     0,
+     3
+    ],
+    "svm": [
+     3,
+     6
+    ],
+    "other_minority": [
+     2,
+     7
+    ],
+    "other": [
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "regions": [
+  {
+   "code": "ABROAD",
+   "name": "Abroad",
+   "turnout_pct": 84.0,
+   "shares_pct": {
+    "sns": 52.5,
+    "students": 39.7,
+    "sps": 1.7,
+    "authentic_right": 0.9,
+    "european_serbia": 1.7,
+    "svm": 0.1,
+    "other_minority": 2.2,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "PRISONS",
+   "name": "Prisons (penal institutions)",
+   "turnout_pct": 85.0,
+   "shares_pct": {
+    "sns": 68.7,
+    "students": 20.7,
+    "sps": 3.5,
+    "authentic_right": 2.0,
+    "european_serbia": 0.5,
+    "svm": 0.6,
+    "other_minority": 2.8,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS110",
+   "name": "City of Belgrade",
+   "turnout_pct": 65.0,
+   "shares_pct": {
+    "sns": 35.8,
+    "students": 55.4,
+    "sps": 2.5,
+    "authentic_right": 2.3,
+    "european_serbia": 2.1,
+    "svm": 0.1,
+    "other_minority": 0.6,
+    "other": 1.0
+   }
+  },
+  {
+   "code": "RS121",
+   "name": "West Bačka",
+   "turnout_pct": 65.0,
+   "shares_pct": {
+    "sns": 53.1,
+    "students": 35.5,
+    "sps": 2.6,
+    "authentic_right": 1.6,
+    "european_serbia": 1.3,
+    "svm": 3.4,
+    "other_minority": 1.4,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS122",
+   "name": "South Banat",
+   "turnout_pct": 65.1,
+   "shares_pct": {
+    "sns": 48.3,
+    "students": 42.6,
+    "sps": 2.5,
+    "authentic_right": 1.8,
+    "european_serbia": 1.6,
+    "svm": 1.2,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS123",
+   "name": "South Bačka",
+   "turnout_pct": 66.9,
+   "shares_pct": {
+    "sns": 45.0,
+    "students": 44.7,
+    "sps": 2.3,
+    "authentic_right": 2.1,
+    "european_serbia": 1.7,
+    "svm": 2.3,
+    "other_minority": 0.8,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS124",
+   "name": "North Banat",
+   "turnout_pct": 62.7,
+   "shares_pct": {
+    "sns": 44.0,
+    "students": 25.3,
+    "sps": 2.2,
+    "authentic_right": 1.1,
+    "european_serbia": 1.0,
+    "svm": 24.3,
+    "other_minority": 0.9,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS125",
+   "name": "North Bačka",
+   "turnout_pct": 58.5,
+   "shares_pct": {
+    "sns": 41.1,
+    "students": 31.5,
+    "sps": 1.5,
+    "authentic_right": 1.1,
+    "european_serbia": 1.2,
+    "svm": 20.1,
+    "other_minority": 2.4,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS126",
+   "name": "Central Banat",
+   "turnout_pct": 65.9,
+   "shares_pct": {
+    "sns": 51.2,
+    "students": 37.3,
+    "sps": 2.5,
+    "authentic_right": 2.0,
+    "european_serbia": 1.4,
+    "svm": 3.6,
+    "other_minority": 0.8,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS127",
+   "name": "Srem",
+   "turnout_pct": 68.2,
+   "shares_pct": {
+    "sns": 56.8,
+    "students": 34.7,
+    "sps": 2.8,
+    "authentic_right": 2.0,
+    "european_serbia": 1.2,
+    "svm": 0.3,
+    "other_minority": 1.1,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS211",
+   "name": "Zlatibor",
+   "turnout_pct": 66.1,
+   "shares_pct": {
+    "sns": 46.1,
+    "students": 35.9,
+    "sps": 3.6,
+    "authentic_right": 2.4,
+    "european_serbia": 1.3,
+    "svm": 0.1,
+    "other_minority": 9.5,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS212",
+   "name": "Kolubara",
+   "turnout_pct": 71.0,
+   "shares_pct": {
+    "sns": 48.4,
+    "students": 42.3,
+    "sps": 3.3,
+    "authentic_right": 2.5,
+    "european_serbia": 1.5,
+    "svm": 0.1,
+    "other_minority": 0.8,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS213",
+   "name": "Mačva",
+   "turnout_pct": 68.0,
+   "shares_pct": {
+    "sns": 55.3,
+    "students": 34.2,
+    "sps": 4.8,
+    "authentic_right": 2.4,
+    "european_serbia": 1.2,
+    "svm": 0.2,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS214",
+   "name": "Moravica",
+   "turnout_pct": 68.3,
+   "shares_pct": {
+    "sns": 46.2,
+    "students": 44.3,
+    "sps": 3.2,
+    "authentic_right": 2.9,
+    "european_serbia": 1.5,
+    "svm": 0.1,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS215",
+   "name": "Pomoravlje",
+   "turnout_pct": 59.3,
+   "shares_pct": {
+    "sns": 52.9,
+    "students": 34.0,
+    "sps": 7.8,
+    "authentic_right": 2.1,
+    "european_serbia": 1.1,
+    "svm": 0.1,
+    "other_minority": 0.9,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS216",
+   "name": "Rasina",
+   "turnout_pct": 68.7,
+   "shares_pct": {
+    "sns": 55.3,
+    "students": 35.3,
+    "sps": 4.0,
+    "authentic_right": 2.1,
+    "european_serbia": 1.3,
+    "svm": 0.1,
+    "other_minority": 0.7,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS217",
+   "name": "Raška",
+   "turnout_pct": 61.1,
+   "shares_pct": {
+    "sns": 43.4,
+    "students": 28.3,
+    "sps": 3.2,
+    "authentic_right": 1.7,
+    "european_serbia": 1.0,
+    "svm": 0.1,
+    "other_minority": 21.1,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS218",
+   "name": "Šumadija",
+   "turnout_pct": 67.0,
+   "shares_pct": {
+    "sns": 47.2,
+    "students": 42.4,
+    "sps": 3.7,
+    "authentic_right": 2.7,
+    "european_serbia": 1.5,
+    "svm": 0.1,
+    "other_minority": 1.2,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS221",
+   "name": "Bor",
+   "turnout_pct": 58.8,
+   "shares_pct": {
+    "sns": 55.9,
+    "students": 34.8,
+    "sps": 4.2,
+    "authentic_right": 1.3,
+    "european_serbia": 1.3,
+    "svm": 0.1,
+    "other_minority": 1.2,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS222",
+   "name": "Braničevo",
+   "turnout_pct": 59.6,
+   "shares_pct": {
+    "sns": 57.6,
+    "students": 32.6,
+    "sps": 4.8,
+    "authentic_right": 1.7,
+    "european_serbia": 1.2,
+    "svm": 0.2,
+    "other_minority": 0.8,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS223",
+   "name": "Zaječar",
+   "turnout_pct": 61.7,
+   "shares_pct": {
+    "sns": 54.0,
+    "students": 36.1,
+    "sps": 4.3,
+    "authentic_right": 2.0,
+    "european_serbia": 1.3,
+    "svm": 0.1,
+    "other_minority": 1.1,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS224",
+   "name": "Jablanica",
+   "turnout_pct": 71.1,
+   "shares_pct": {
+    "sns": 59.4,
+    "students": 29.0,
+    "sps": 6.4,
+    "authentic_right": 1.9,
+    "european_serbia": 1.0,
+    "svm": 0.2,
+    "other_minority": 0.9,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS225",
+   "name": "Nišava",
+   "turnout_pct": 65.4,
+   "shares_pct": {
+    "sns": 48.3,
+    "students": 42.5,
+    "sps": 3.4,
+    "authentic_right": 2.1,
+    "european_serbia": 1.5,
+    "svm": 0.1,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS226",
+   "name": "Pirot",
+   "turnout_pct": 75.4,
+   "shares_pct": {
+    "sns": 57.0,
+    "students": 33.7,
+    "sps": 4.3,
+    "authentic_right": 1.6,
+    "european_serbia": 1.3,
+    "svm": 0.1,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS227",
+   "name": "Podunavlje",
+   "turnout_pct": 61.9,
+   "shares_pct": {
+    "sns": 53.3,
+    "students": 36.9,
+    "sps": 3.7,
+    "authentic_right": 2.6,
+    "european_serbia": 1.2,
+    "svm": 0.2,
+    "other_minority": 0.9,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS228",
+   "name": "Pčinja",
+   "turnout_pct": 53.7,
+   "shares_pct": {
+    "sns": 51.8,
+    "students": 21.0,
+    "sps": 7.6,
+    "authentic_right": 1.3,
+    "european_serbia": 0.7,
+    "svm": 0.1,
+    "other_minority": 16.2,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS229",
+   "name": "Toplica",
+   "turnout_pct": 71.3,
+   "shares_pct": {
+    "sns": 64.5,
+    "students": 26.6,
+    "sps": 4.2,
+    "authentic_right": 1.8,
+    "european_serbia": 0.9,
+    "svm": 0.2,
+    "other_minority": 0.7,
+    "other": 1.1
+   }
+  },
+  {
+   "code": "RS231",
+   "name": "Kosovo",
+   "turnout_pct": 24.2,
+   "shares_pct": {
+    "sns": 80.7,
+    "students": 8.9,
+    "sps": 7.3,
+    "authentic_right": 1.4,
+    "european_serbia": 0.2,
+    "svm": 0.0,
+    "other_minority": 0.2,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS232",
+   "name": "Kosovska Mitrovica",
+   "turnout_pct": 31.6,
+   "shares_pct": {
+    "sns": 69.0,
+    "students": 22.8,
+    "sps": 3.5,
+    "authentic_right": 2.5,
+    "european_serbia": 0.5,
+    "svm": 0.1,
+    "other_minority": 0.5,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS233",
+   "name": "Kosovo-Pomoravlje",
+   "turnout_pct": 47.6,
+   "shares_pct": {
+    "sns": 84.4,
+    "students": 8.9,
+    "sps": 3.7,
+    "authentic_right": 1.4,
+    "european_serbia": 0.2,
+    "svm": 0.0,
+    "other_minority": 0.2,
+    "other": 1.2
+   }
+  },
+  {
+   "code": "RS234",
+   "name": "Peć",
+   "turnout_pct": 25.0,
+   "shares_pct": {
+    "sns": 63.6,
+    "students": 3.4,
+    "sps": 30.5,
+    "authentic_right": 0.7,
+    "european_serbia": 0.1,
+    "svm": 0.0,
+    "other_minority": 0.2,
+    "other": 1.5
+   }
+  },
+  {
+   "code": "RS235",
+   "name": "Prizren",
+   "turnout_pct": 10.2,
+   "shares_pct": {
+    "sns": 78.8,
+    "students": 7.1,
+    "sps": 10.7,
+    "authentic_right": 0.4,
+    "european_serbia": 0.3,
+    "svm": 0.1,
+    "other_minority": 1.4,
+    "other": 1.3
+   }
+  }
+ ],
+ "municipalFile": "municipalities.csv",
+ "note": "Second version, made before the polls closed: the same three methods with four more research runs (six in all), turnout as in the first version. The first version, sealed at 11:57 CET, is also on GitHub."
+}
