@@ -1,0 +1,210 @@
+{
+ "method": "bg-lucuma-2",
+ "election": "bulgaria/2026/president/round-1",
+ "shares_pct": {
+  "iotova": 43.7,
+  "gyurov": 29.0,
+  "kostadinov": 11.6,
+  "other": 12.9,
+  "none": 2.8
+ },
+ "range80_pct": {
+  "iotova": [
+   35.0,
+   53.0
+  ],
+  "gyurov": [
+   21.7,
+   36.7
+  ],
+  "kostadinov": [
+   7.1,
+   17.0
+  ],
+  "other": [
+   7.7,
+   19.3
+  ],
+  "none": [
+   1.5,
+   4.6
+  ]
+ },
+ "probabilities_pct": {
+  "p_first": {
+   "iotova": 93.0,
+   "gyurov": 6.9,
+   "kostadinov": 0.1
+  },
+  "p_top2": {
+   "iotova": 99.5,
+   "gyurov": 97.8,
+   "kostadinov": 2.3
+  },
+  "p_runoff": 99.4
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 38.0,
+ "turnout_range80_pct": [
+  31.5,
+  45.5
+ ],
+ "blank_null_pct": null,
+ "key_inputs": [
+  "Scope: only material published before 2026-10-25 05:00 UTC informs this forecast. Shares include all valid ballots, including 'I do not support anyone'; other aggregates 24 pairs. p_first means finishing first in votes, not winning the presidency outright.",
+  "Candidate verification: CIK's 2026-09-23 ballot-number decision lists 27 pairs, including Iotova–Valchev at 25, Gyurov–Kandev at 4 and Kostadinov–Volgin at 11. Pre-election coverage confirms Progressive Bulgaria/BSP support for Iotova, PP/DB support for Gyurov, and no GERB or DPS presidential pair.",
+  "Alpha Research: opening wave published October 5, fieldwork September 24–October 1, n=1000, household tablet interviews, self-funded: Iotova/Gyurov/Kostadinov 44.5/26.1/10.5. Final wave published October 23, fieldwork October 18–22, n=1000, household tablet interviews, self-funded: 41.1/28.3/12.8, other 15.2, none 2.6. Its latest Iotova estimate is approximately 2.8 points below my normalized weighted polling baseline.",
+  "Trend: opening wave published October 6, fieldwork September 26–October 2, n=1003, face-to-face tablet interviews for 24 Chasa: 47.8/24.6/9.7. Final wave published October 23, fieldwork October 14–20, n=1002, same mode and sponsor: 45.9/27.8/10.9. Its final Iotova estimate is about 2.0 points above the weighted baseline, with Gyurov about 0.6 below.",
+  "Myara: opening wave published October 5, fieldwork September 26–October 4, n=1000, personal interviews plus online questionnaires as reported by bTV, self-funded: 46.9/25.3/8.8, none 2.3. Final wave published October 22, fieldwork October 8–19, n=1009, face-to-face tablet interviews for BNR: 43.4/28.9/10.2, none 2.5. The latest wave is close to the baseline for the leading pair but approximately 1.1 points lower for Kostadinov.",
+  "Market Links: opening wave published September 30, fieldwork September 26–29 according to the commissioning broadcaster, n=1006, personal interviews plus online questionnaires with bTV: 41.4/21.9/6.4, including 20.4 undecided. Final wave published October 21, fieldwork October 13–19, n=1006, same mixed mode: candidate-only shares 47.3/30.6/10.3, separately reporting none at 3.8. Multiplying candidate shares by 0.962 gives 45.5/29.4/9.9 on the requested base; comparing the unadjusted opening and final headlines would exaggerate growth.",
+  "Gallup International Balkan: opening wave published October 8, fieldwork September 26–October 6, n=987, face-to-face tablet interviews, self-funded: 44.9/24.8/10.9. Final wave published October 23, fieldwork October 14–22, n=1001, face-to-face tablet interviews, self-funded: 43.2/29.7/12.4, other 12.1, undecided 2.2, none 0.4. Removing undecided yields 44.2/30.4/12.7, approximately 1.9 points above the baseline for Gyurov; its exceptionally low none estimate receives limited influence.",
+  "Sova Harris: opening wave published October 2, fieldwork September 23–28, n=1000, household face-to-face interviews for Trud: candidate-only 50.2/23.7/12.7. Final wave published October 20, fieldwork October 13–17, n=1000, same mode and sponsor: 49.2/24.8/9.5. Allowing 3.0% for none gives approximately 47.7/24.1/9.2; even after normalization it is relatively high for Iotova and low for Gyurov. The 3.0% allowance is my assumption, not a Sova measurement.",
+  "Progress Consult: published October 12, fieldwork October 4–8, n=820, tablet interviews plus online questionnaires, commissioned by Ivaylo Simeonov's initiative committee: 44.9/26.5/8.1, with Simeonov at 2.6. Reviewed but given zero direct pooling weight because of candidate sponsorship, an unverified historical record and incomplete denominator information.",
+  "Pollster weighting: final-wave weights are Alpha 30%, Trend 25%, Myara 18%, Market Links 15%, Gallup 8% and Sova 4%; earlier waves inform movement rather than count as additional independent observations. The May 23 historical assessment ranks Alpha, Trend and Market Links highest across 2019–April 2026, places Gallup lower and Sova among the weakest, while Myara has only one election in that comparison. The campaign-relative differences described above are not estimates of permanent partisan bias. The normalized leading-three baseline is approximately 43.9/28.4/11.3, followed by modest judgmental adjustments for late consolidation.",
+  "Comparable presidential errors: Alpha's final 2021 poll gave Radev/Gerdzhikov 46.4/28.3 against final official shares of 49.42/22.83, understating the winning margin by about 8.5 points; Trend's 46.8/24.4 understated it by about 4.2. In 2016 Alpha's final headline shares put Tsacheva ahead of Radev 26.3/22.5, whereas the official result was Radev 25.44 versus Tsacheva 21.96, reversing the order and missing the margin by roughly 7.3 points.",
+  "Recent shared-error warning: ahead of the April 2026 parliamentary election, the major agencies put Progressive Bulgaria roughly in the 30.7–34.6% range, against its eventual 44.6%. That less directly comparable election supports substantial common-error tails; I do not mechanically transfer its 10–14-point correction to Iotova.",
+  "Turnout: the October 20 CIK briefing reported approximately 6.59 million registered electors. Trend's 47% refers to resident adults and represents only about 2.4–2.5 million declared voters, with actual participation potentially lower; Alpha expects 2.6–2.7 million and Gallup approximately 2.6 million. My forecast implies about 2.50 million ballots, allowing for nonparticipation, overseas voting and register uncertainty.",
+  "Campaign judgment: the latest waves consistently show a narrowing Iotova–Gyurov gap, while Alpha reports stronger mobilization for Kostadinov too. Black Sea attacks and the government's response increased geopolitical salience; the large unsettled GERB/DPS electorate and expert warnings about complacency create uncertainty beyond ordinary sampling error. I avoid assigning a large numerical effect to individual late scandals.",
+  "Betting cross-check: an October 8 account timestamped 06:10 UTC quoted Polymarket at approximately 87% for Iotova to win the presidency and 13.5% for Gyurov; this is an eventual-winner market, not a first-round share forecast. An October 22 account quoted approximately 3.7% for any outright first-round victory, supporting the runoff expectation, although I assign an even smaller chance because both the vote-share and turnout conditions must hold."
+ ],
+ "sources": [
+  {
+   "url": "https://www.cik.bg/bg/decisions/268/2026-09-23",
+   "published": "2026-09-23",
+   "used_for": "Official candidate pairs, 27-entry ballot and ballot numbers."
+  },
+  {
+   "url": "https://campaigns.darik.bg/kampanii/osnovnite-kandidati-za-prezident-2026/",
+   "published": "2026-10-17",
+   "used_for": "Candidate backing, GERB/DPS nonparticipation and poll-denominator comparison; article explicitly updated October 22."
+  },
+  {
+   "url": "https://alpharesearch.bg/post/1054-predizborni-naglasi-na-starta-na-kampaniata-za-prezidentski-izbori-2026.html",
+   "published": "2026-10-05",
+   "used_for": "Alpha opening-wave results, fieldwork, sample, method and turnout expectations; release date corroborated by the dated campaign survey inventory."
+  },
+  {
+   "url": "https://bnrnews.bg/izbori/post/546176/alfa-risarch-40percent-aktivnost-yotova-valchev-vodyat-s-okolo-13percent-na-gyurov-kandev",
+   "published": "2026-10-23",
+   "used_for": "Complete Alpha final-wave distribution, methodology, late decisions and turnout."
+  },
+  {
+   "url": "https://www.24chasa.bg/mneniya/article/23680090",
+   "published": "2026-10-06",
+   "used_for": "Trend opening-wave release and leading-candidate comparison."
+  },
+  {
+   "url": "https://bnrnews.bg/shumen/post/546233/trend-yotova-valchev-s-459percent-gyurov-kandev-s-278percent",
+   "published": "2026-10-23",
+   "used_for": "Trend final-wave results, sample, fieldwork and resident-adult turnout denominator."
+  },
+  {
+   "url": "https://btvnovinite.bg/novite-izbori/mjara.html",
+   "published": "2026-10-05",
+   "used_for": "Myara opening-wave distribution, fieldwork, sample and reported method."
+  },
+  {
+   "url": "https://euronews.bg/news/predninata-na-iotova-pred-gyurov-se-stopi-do-pod-15-izmeri-agentsiya-myara/",
+   "published": "2026-10-22",
+   "used_for": "Myara final-wave distribution, sample, fieldwork, method and turnout expectation."
+  },
+  {
+   "url": "https://www.dnes.bg/a/604-izbori-2026/737794-galap-449-e-podkrepata-za-yotova-valchev-248-za-gyurov-kandev",
+   "published": "2026-10-08",
+   "used_for": "Gallup opening-wave results, sample, fieldwork and funding."
+  },
+  {
+   "url": "https://dariknews.bg/novini/bylgariia/galyp-iotova-i-kiril-vylchev-poluchavat-432-podkrepa-sred-reshilite-da-glasuvat-2469980",
+   "published": "2026-10-23",
+   "used_for": "Gallup final wave, including undecided and none categories, methodology and turnout."
+  },
+  {
+   "url": "https://btvnovinite.bg/bulgaria/parvo-prouchvane-na-market-links-kakvi-sa-naglasite-predi-prezidentskite-izbori.html",
+   "published": "2026-09-30",
+   "used_for": "Market Links opening wave, undecided denominator and primary broadcaster's fieldwork dates."
+  },
+  {
+   "url": "https://burgasmedia.com/news/market-links-yotova-i-valchev-sa-parvi-s-47-3-gyurov-i-kandev-imat-30-6",
+   "published": "2026-10-21",
+   "used_for": "Market Links final wave, explicit exclusion of 3.8% none, methodology and turnout."
+  },
+  {
+   "url": "https://globalno.bg/politika/sova-haris-jotova-i-valchev-s-50-2-podkrepa-sred-reshilite-za-kogo-shte-glasuvat/",
+   "published": "2026-10-02",
+   "used_for": "Sova opening wave, correct 23.7% Gyurov figure, candidate-only base and survey details."
+  },
+  {
+   "url": "https://bnrnews.bg/plovdiv/post/544703/sova-haris-yotova-492percent-gyurov-248percent-kostadinov-95percent",
+   "published": "2026-10-20",
+   "used_for": "Sova final-wave results, methodology, sponsor and turnout."
+  },
+  {
+   "url": "https://globalno.bg/politika/ivajlo-simeonov-s-naj-visok-rezultat-izvan-vodeshtata-trojka-v-prouchvane/",
+   "published": "2026-10-12",
+   "used_for": "Progress Consult poll, sample, fieldwork, mode and candidate sponsorship."
+  },
+  {
+   "url": "https://www.mediapool.bg/analizi-i-komentari/dostovernost-na-sotsiologicheskite-agentsii-predi-i-sled-izborite-za-52-ro-narodno-sabranie/",
+   "published": "2026-05-23",
+   "used_for": "Historical pollster reliability comparison and limited Myara track record."
+  },
+  {
+   "url": "https://www.marica.bg/tema-v-razvitie/izbori-2026/votat-zasrami-sociolozite-nikoy-ne-hvana-valnata",
+   "published": "2026-04-22",
+   "used_for": "Large shared underestimation of Progressive Bulgaria in the past April parliamentary election."
+  },
+  {
+   "url": "https://www.actualno.com/politics/alfa-risyrch-syshto-dava-pobeda-na-borisov-i-radev-na-izborite-2-v-1-news_1667753.html",
+   "published": "2021-11-11",
+   "used_for": "Alpha final pre-election 2021 presidential poll and methodology."
+  },
+  {
+   "url": "https://glasove.com/novini/trend-gerb-vodi-s-8-bsp-i-pp-pochti-ravni-radev-izprevarva-gerdzhikov-s-dvoen-rezultat",
+   "published": "2021-11-10",
+   "used_for": "Trend final pre-election 2021 presidential poll and register-based turnout conversion."
+  },
+  {
+   "url": "https://old.mediapool.bg/okonchatelno-aktivnostta-na-prezidentskiya-vot-na-14-noemvri-e-bila-4050-news328973.html",
+   "published": "2021-11-17",
+   "used_for": "Dated report of official 2021 first-round shares and turnout for historical calibration."
+  },
+  {
+   "url": "https://dariknews.bg/novini/izbori-2016/nova-alpha-index-distanciqta-mezhdu-cacheva-i-radev-se-skysqva-1619550",
+   "published": "2016-11-04",
+   "used_for": "Final Alpha pre-election 2016 presidential poll."
+  },
+  {
+   "url": "https://dariknews.bg/novini/izbori-2016/okonchatelno-radev-2544-cacheva-2196-na-pyrviq-tur-1621059",
+   "published": "2016-11-09",
+   "used_for": "Official past 2016 first-round results and polling-margin error."
+  },
+  {
+   "url": "https://dnes.dir.bg/politika/6-59-mln-dushi-sa-s-pravo-na-glas-na-prezidentskiya-vot-46-hil-vlizat-za-parvi-pat-v-spisatsite",
+   "published": "2026-10-20",
+   "used_for": "Pre-election CIK briefing reporting approximately 6.59 million registered electors."
+  },
+  {
+   "url": "https://sofiaglobe.com/2026/10/23/bulgarias-2026-presidential-elections-yotova-41-1-gyurov-28-3-alpha-research-poll/",
+   "published": "2026-10-23",
+   "used_for": "Late campaign movement, Black Sea security issue and unsettled GERB/DPS voters."
+  },
+  {
+   "url": "https://www.mediapool.bg/intervyuta/parvan-simeonov-nai-interesnoto-ostava-za-balotazha-gyurov-ne-e-nevazmozhna-iznenada/",
+   "published": "2026-10-23",
+   "used_for": "Expert assessment of mobilization, complacency and possible Gyurov upside."
+  },
+  {
+   "url": "https://memcool.app/blog/bulgaria-election-odds",
+   "published": "2026-10-08",
+   "used_for": "Explicitly timestamped historical Polymarket cross-check and Trend opening-wave sample details."
+  },
+  {
+   "url": "https://www.lines.com/prediction-markets/politics/global-elections/will-any-presidential-candidate-win-outright-in-the-first-round-of-the-bulgaria-election",
+   "published": "2026-10-22",
+   "used_for": "Dated market cross-check: approximately 3.7% chance of an outright first-round victory."
+  }
+ ],
+ "contamination": "No exit-poll numbers, election results, partial counts or election-day turnout were seen or used. Search snippets accidentally returned election-day administrative articles: https://www.mediapool.bg/prezidentski-izbori-2026/nomerata-na-kandidatite-za-prezidentskite-izbori/ dated 2026-10-25 10:10 showed the 27-pair candidate list; https://www.vesti.bg/izbori/na-koj-adres-glasuvam-6273939 and a Times.bg article titled 'България избира седми президент: Всичко важно за гласуването с машина и бюлетина', both dated 2026-10-25, showed administrative figures including approximately 6.59 million eligible voters and 11,622 machines. These pages were not opened and their snippets were excluded; the voter-register figure used above comes independently from the October 20 briefing. Undated live-market snippets were also excluded in favor of explicitly dated October 8 and October 22 accounts.",
+ "notes": "I give the latest Alpha Research and Trend surveys greatest weight, use earlier waves to assess movement, and normalize differing ballot bases before combining them. Iotova's incumbency and party backing keep her ahead, while Gyurov's late gains and the unsettled GERB/DPS electorate justify a modest shift toward challengers. Campaign developments support additional uncertainty rather than a large speculative last-minute adjustment. The marginal 80% intervals reflect correlated polling errors, including the 2016 and 2021 presidential margin misses and April 2026's much larger parliamentary polling failure. Turnout near 38% of registered voters makes a runoff overwhelmingly likely even if Iotova exceeds half of valid ballots."
+}
