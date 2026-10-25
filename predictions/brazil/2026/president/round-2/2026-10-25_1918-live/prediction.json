@@ -1,0 +1,90 @@
+{
+ "schema": 1,
+ "nonce": "8380a27c3856139e95a5a6b3b7edbd15",
+ "election": "brazil/2026/president/round-2",
+ "madeAt": "2026-10-25T19:17:56+01:00",
+ "kind": "live estimate: made during or after voting, with election-day information; not the sealed prediction",
+ "used": "Made during voting, before the polls closed; no exit poll or count existed yet, so it keeps our prediction.",
+ "estimate": {
+  "shares_pct": {
+   "flavio": 51.6,
+   "lula": 48.4
+  },
+  "range80_pct": {
+   "flavio": [
+    49.2,
+    54.0
+   ],
+   "lula": [
+    46.0,
+    50.8
+   ]
+  },
+  "probabilities_pct": {
+   "p_win": {
+    "flavio": 80.6,
+    "lula": 19.4
+   }
+  },
+  "turnout_pct": 79.1,
+  "turnout_range80_pct": [
+   77.3,
+   80.9
+  ],
+  "blank_null_pct": 5.1,
+  "seats": null
+ },
+ "key_inputs": [
+  "2026-10-25 18:58 CET — Supplied sealed prior: Flávio 51.6%, Lula 48.4%, Flávio win probability 80.6%, turnout 79.1%, blank/null 5.1%; retained because verified election-day evidence does not establish a measurable national shift.",
+  "2026-10-25 06:30 Brasília — TSE confirms voting continues until 17:00 Brasília, equivalent to 21:00 CET; the evidence cutoff of 19:17 CET is 15:17 Brasília, before official national counting begins.",
+  "2026-10-25 05:30 Brasília — UOL reports no presidential runoff exit poll will be conducted; no exit-poll update is available. Its historical comparison reports the 2018 exit poll at 56% for Bolsonaro versus 55.13% officially, illustrating that even an exit poll would retain error.",
+  "2026-10-25 10:01 Brasília update — R7 reports 32 police incidents through 09:00 and 1,015,328 absence justifications. Justification submissions are not a representative turnout measurement and receive no numerical weight in the national abstention estimate.",
+  "2026-10-25 12:31 Brasília — Agência Brasil quotes the São Paulo electoral court president describing voting as normal despite heavy rain; 114 machines had been replaced by 11:00. Operational incidents provide no quantified partisan signal.",
+  "2026-10-25 14:05 Brasília — SBT News reports rain-related changes to voting locations or access in Itapevi, Itupeva and Americana; 14:55 Brasília — Itatiaia reports storms and hail around Belo Horizonte and Betim. These support turnout uncertainty, but do not establish how many votes will be lost or a defensible candidate adjustment.",
+  "2026-10-22 15:21 Brasília — Agência Brasil describes mandatory free public transport for election day; this was known before the sealed prior and is not counted as fresh evidence of higher turnout.",
+  "2022-10-30 18:48 Brasília live entry — Bloomberg Línea recorded Lula taking the lead with 67.76% of sections counted, after Bolsonaro led earlier. Early national totals require geographic adjustment; no 2026 runoff state counts or counted-share figures were verified by this cutoff."
+ ],
+ "sources": [
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/e-hoje-confira-o-que-levar-e-como-se-preparar-para-votar",
+   "published": "2026-10-25T06:30:00-03:00",
+   "used_for": "Official voting hours and pre-count status at the evidence cutoff."
+  },
+  {
+   "url": "https://noticias.uol.com.br/eleicoes/2026/10/25/pesquisa-boca-de-urna-no-segundo-turno-por-que-nao-vai-ter-levantamento.amp.htm",
+   "published": "2026-10-25T05:30:00-03:00",
+   "used_for": "Reported absence of runoff exit polling and historical exit-poll accuracy."
+  },
+  {
+   "url": "https://noticias.r7.com/eleicoes/2026/eleicoes-segundo-turno-brasil-26102026/",
+   "published": "2026-10-25T10:01:00-03:00",
+   "used_for": "Updated report of early police incidents and absence justifications; not a national turnout sample."
+  },
+  {
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/apesar-das-fortes-chuvas-eleicoes-seguem-tranquilas-em-sao-paulo",
+   "published": "2026-10-25T12:31:00-03:00",
+   "used_for": "Electoral court assessment of normal voting despite rain and machine replacements in São Paulo."
+  },
+  {
+   "url": "https://sbtnews.sbt.com.br/noticia/brasil/chuvas-alteram-locais-de-votacao-em-3-cidades-de-sp",
+   "published": "2026-10-25T14:05:00-03:00",
+   "used_for": "Localized flood-related changes to voting access."
+  },
+  {
+   "url": "https://www.itatiaia.com.br/politica/eleicoes/chuvas-intensas-atingem-bh-e-regiao-metropolitana-durante-o-segundo-turno-das-eleicoes-2026/",
+   "published": "2026-10-25T14:55:00-03:00",
+   "used_for": "Afternoon storms in metropolitan Belo Horizonte and potential travel disruption."
+  },
+  {
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-saiba-onde-havera-transporte-gratuito-no-segundo-turno",
+   "published": "2026-10-22T15:21:00-03:00",
+   "used_for": "Previously announced free transport; avoids treating an existing policy as new turnout evidence."
+  },
+  {
+   "url": "https://www.bloomberglinea.com.br/2022/10/30/ao-vivo-acompanhe-as-noticias-da-votacao-e-a-cobertura-das-eleicoes/",
+   "published": "2022-10-30T18:48:00-03:00",
+   "used_for": "Historical live entry demonstrating that an early national lead can reverse as geographically uneven counting progresses."
+  }
+ ],
+ "notes": "Evidence is restricted to publication by 19:17 CET, while voting remains open; no verified national turnout measurement, exit poll or official runoff count supports moving the sealed central estimates. Rain and localized incidents receive little directional weight because their turnout and partisan effects are unmeasured, and previously known transport arrangements are not counted twice. The vote-share intervals use an approximately normal uncertainty distribution consistent with the supplied 80.6% win probability, rather than claiming new precision from operational reports. The turnout interval is a judgmental 80% range, and blank/null remains the prior estimate."
+}
