@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "nonce": "09e8c6dbd4986d5c7480a246290900a0",
+ "election": "serbia/2026/parliament",
+ "madeAt": "2026-10-25T20:07:44+01:00",
+ "kind": "scenario model made after the polls closed, before any projection or count; not the sealed prediction",
+ "weights": {
+  "independent polls (NSPM 20 Oct, CRTA 15 Jul), on our base": 0.5,
+  "Simczech Rambutan": 0.3,
+  "Simczech Live (19:18)": 0.2
+ },
+ "inputs": {
+  "nspm": {
+   "sns": 42.61038824763904,
+   "students": 44.40661070304302,
+   "sps": 2.8939139559286464,
+   "authentic_right": 2.494753410283316,
+   "european_serbia": 2.694333683105981,
+   "svm": 1.4,
+   "other_minority": 2.4,
+   "other": 1.1
+  },
+  "crta": {
+   "sns": 38.7031990521327,
+   "students": 48.6771327014218,
+   "sps": 4.119668246445498,
+   "authentic_right": 2.1,
+   "european_serbia": 1.5,
+   "svm": 1.4,
+   "other_minority": 2.4,
+   "other": 1.1
+  },
+  "rambutan": {
+   "sns": 37.0,
+   "students": 37.7,
+   "sps": 6.2,
+   "authentic_right": 6.7,
+   "european_serbia": 5.4,
+   "svm": 1.7,
+   "other_minority": 1.6,
+   "other": 3.7
+  },
+  "live": {
+   "sns": 45.6,
+   "students": 43.0,
+   "sps": 3.2,
+   "authentic_right": 2.0,
+   "european_serbia": 1.4,
+   "svm": 1.3,
+   "other_minority": 2.4,
+   "other": 1.1
+  }
+ },
+ "estimate": {
+  "shares_pct": {
+   "sns": 40.5,
+   "students": 43.2,
+   "sps": 4.2,
+   "authentic_right": 3.6,
+   "european_serbia": 2.9,
+   "svm": 1.5,
+   "other_minority": 2.2,
+   "other": 1.9
+  },
+  "seats": {
+   "sns": 107,
+   "students": 114,
+   "sps": 11,
+   "authentic_right": 9,
+   "european_serbia": 0,
+   "svm": 5,
+   "other_minority": 4,
+   "other": 0
+  }
+ },
+ "note": "Added after the polls closed, before any projection: our models reweighted toward the independent polls and our archetype model."
+}
