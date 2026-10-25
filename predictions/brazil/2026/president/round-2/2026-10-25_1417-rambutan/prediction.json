@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "nonce": "a214ade3c18beab4d572eb50cb7bd714",
+ "election": {
+  "id": "brazil/2026/president/round-2",
+  "name": "Brazil, presidential election, runoff",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T21:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T14:17:25+01:00",
+ "cutoff": "2026-10-25T12:00:00+01:00",
+ "series": {
+  "id": "rambutan",
+  "name": "Simczech Rambutan",
+  "experimental": true,
+  "inOriginal": false
+ },
+ "method": "Archetype opinions. Groups of voters by their vote in the last comparable election and where they live, sized by the official counts; each archetype answers in the first person, as a simulated voter, with its chance of voting today and the chance of each option, from a campaign brief that leaves out the polls and the betting markets. National shares = the answers weighted by each archetype's size and chance of voting.",
+ "national": {
+  "shares_pct": {
+   "flavio": 52.3,
+   "lula": 47.7
+  },
+  "blank_null_pct": 6.9,
+  "archetypes": 71,
+  "answers": 142,
+  "missing_archetypes": 0
+ },
+ "variants": {
+  "high_effort": {
+   "shares_pct": {
+    "flavio": 52.3,
+    "lula": 47.7
+   },
+   "blank_null_pct": 7.1,
+   "archetypes": 71,
+   "answers": 142,
+   "missing_archetypes": 0,
+   "about": "the same archetypes, answered twice more with more deliberation"
+  },
+  "fine": {
+   "shares_pct": {
+    "flavio": 52.5,
+    "lula": 47.5
+   },
+   "blank_null_pct": 6.9,
+   "archetypes": 189,
+   "answers": 189,
+   "missing_archetypes": 0,
+   "about": "the same groups by province, district or state, answered once"
+  }
+ },
+ "files": {
+  "archetypes": "archetypes.csv",
+  "high_effort": "archetypes-high-effort.csv",
+  "fine": "archetypes-fine.csv",
+  "questionnaire": "questionnaire.md"
+ },
+ "note": "Experimental: not part of Simczech Original and not shown on the page. Sealed before the polls closed, made only from material published before the polls opened. Turnout is not given."
+}
