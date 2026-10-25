@@ -1,0 +1,146 @@
+{
+ "method": "br-lucuma-5",
+ "election": "brazil/2026/president/round-2",
+ "shares_pct": {
+  "flavio": 51.7,
+  "lula": 48.3
+ },
+ "range80_pct": {
+  "flavio": [
+   48.8,
+   54.6
+  ],
+  "lula": [
+   45.4,
+   51.2
+  ]
+ },
+ "probabilities_pct": {
+  "p_win": {
+   "flavio": 78.0,
+   "lula": 22.0
+  }
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 78.8,
+ "turnout_range80_pct": [
+  77.3,
+  80.3
+ ],
+ "blank_null_pct": 5.2,
+ "key_inputs": [
+  "Judgmental late-poll anchor: approximately 50.8% Flavio, using published valid-vote figures. Datafolha and Quaest report 51.0%, AtlasIntel/Bloomberg 50.8%, CNT/MDA 50.7%, Nexus/BTG 50.5% and Futura 50.1%.",
+  "Greatest weight goes to established firms with recent fieldwork: Datafolha and Quaest interviewed on 23–24 October with samples of 4,050 and 3,702; AtlasIntel interviewed on 18–23 October with 4,990; CNT/MDA interviewed on 21–23 October with approximately 2,000. Sample size receives diminishing weight, telephone surveys provide supplementary evidence, and sponsorship alone does not establish partisan bias.",
+  "Flavio's first-round share among the two finalists was 51.01%. Corresponding polling errors were −2.23 points for Datafolha, −2.29 for Quaest, −2.61 for AtlasIntel and −4.16 for CNT/MDA, versus +0.19 for Futura; these support a selective, substantially reduced carryover adjustment.",
+  "Historical published valid-vote estimates understated Jair Bolsonaro by 0.13 points in Datafolha's 2018 final poll and by approximately 1.1 points in Datafolha and Quaest and 2.5 points in AtlasIntel in 2022. Shared polling errors remain possible despite agreement across firms.",
+  "Flavio led the first round 47.03% to 45.16%; Cury, Caiado and Zema, together accounting for 5.34%, endorsed him. Endorsements support favorable transfers but do not guarantee voter compliance.",
+  "Datafolha's high-propensity group comprised 76% of respondents and favored Flavio 52–48, compared with 48–52 among the remainder. Residual polling bias and differential turnout together motivate an approximately 0.9-point upward adjustment from the polling anchor.",
+  "Turnout and blank/null forecasts start from 78.92% and 4.77% in the first round, incorporate the differing 2018 and 2022 round-to-round changes, and consider CNT/MDA's separately reported 5.8% blank/null intention.",
+  "The reported Polymarket probability of 77% for Flavio provides a broadly consistent cross-check; Lula's late mobilization, expanded benefits and workweek proposals support retaining a substantial upset probability."
+ ],
+ "sources": [
+  {
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip",
+   "published": "2026-10-24",
+   "used_for": "First-round candidate shares, two-finalist normalization and potential transfer pool."
+  },
+  {
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+   "published": "2026-10-24",
+   "used_for": "First-round turnout and blank/null baselines."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-49-em-empate-tecnico.shtml",
+   "published": "2026-10-24",
+   "used_for": "Final Datafolha poll, fieldwork and sample size."
+  },
+  {
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/quaest-2o-turno-votos-validos.ghtml",
+   "published": "2026-10-24",
+   "used_for": "Final Quaest poll, fieldwork and sample size."
+  },
+  {
+   "url": "https://atlasintel.org/poll/brazil-national-pesquisa-atlasbloomberg-2026-10-24",
+   "published": "2026-10-24",
+   "used_for": "Final AtlasIntel/Bloomberg poll, fieldwork and sample size."
+  },
+  {
+   "url": "https://www.infomoney.com.br/politica/cnt-mda-flavio-tem-463-e-lula-45-dos-votos-totais-configurando-empate-tecnico/",
+   "published": "2026-10-24",
+   "used_for": "CNT/MDA valid-vote estimate and separately reported blank/null intention."
+  },
+  {
+   "url": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-flavio-x-lula-a-ultima-antes-do-segundo-turno/",
+   "published": "2026-10-24",
+   "used_for": "Recent Nexus/BTG telephone poll as supplementary evidence."
+  },
+  {
+   "url": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-tem-501-e-lula-499-no-2o-turno/",
+   "published": "2026-10-24",
+   "used_for": "Futura's nearly tied final valid-vote estimate."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election",
+   "published": "2026-10-25",
+   "used_for": "Factsheet's 06:06 UTC revision documenting first-round polling figures and errors."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2018/10/pesquisa-datafolha-mostra-bolsonaro-com-55-e-haddad-com-45-na-vespera-da-eleicao.shtml",
+   "published": "2018-10-27",
+   "used_for": "Datafolha's published 2018 final valid-vote estimate."
+  },
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/eleicoes-2018-justica-eleitoral-conclui-totalizacao-dos-votos-do-segundo-turno",
+   "published": "2018-10-30",
+   "used_for": "Official 2018 runoff result and turnout/invalid-ballot history."
+  },
+  {
+   "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/31/amp/quais-pesquisas-erraram-e-acertaram-resultado-do-2-turno-entre-lula-e-bolsonaro.html",
+   "published": "2022-10-31",
+   "used_for": "Historical published valid-vote errors for Datafolha, Quaest, AtlasIntel and CNT/MDA."
+  },
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno/",
+   "published": "2022-10-31",
+   "used_for": "Official 2022 runoff result, turnout and blank/null share."
+  },
+  {
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+   "published": "2025-07-29",
+   "used_for": "2018 first-round-to-runoff turnout and blank/null changes."
+  },
+  {
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip",
+   "published": "2026-10-24",
+   "used_for": "2022 first-round-to-runoff turnout and blank/null changes."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+   "published": "2026-10-08",
+   "used_for": "Endorsements and qualitative assessment of vote transfers."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-vantagem-entre-mais-propensos-a-votar-diz-analise-do-datafolha.shtml",
+   "published": "2026-10-24",
+   "used_for": "Candidate preferences by voting propensity."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/lula-e-flavio-bolsonaro-disputam-votos-de-487-milhoes-de-ausentes-e-eleitores-de-terceira-via.shtml",
+   "published": "2026-10-24",
+   "used_for": "Lula's late campaigning and mobilization."
+  },
+  {
+   "url": "https://krmg.com/2026/10/24/what-to-know-as-brazilians-choose-between-lula-and-flavio-bolsonaro-on-sunday/",
+   "published": "2026-10-24",
+   "used_for": "Expanded social benefits and Lula's workweek proposals."
+  },
+  {
+   "url": "https://elpais.com/america/2026-10-24/puede-lula-remontar-a-flavio-bolsonaro-esto-es-lo-que-dicen-las-encuestas.html",
+   "published": "2026-10-24",
+   "used_for": "Reported 77% Polymarket probability as a cross-check."
+  }
+ ],
+ "contamination": "none (offline from the factsheet)",
+ "notes": "The strongest late polls imply a small Flavio lead, with Futura's near tie tempering confidence. Historical runoff errors and this year's first-round misses justify a modest upward adjustment, substantially discounted for possible pollster recalibration and differences between rounds. Endorsements and voting propensity reinforce that lean, while Lula's mobilization and benefits agenda preserve a credible path to victory. The 80% ranges allow substantial correlated polling error, and the market quotation provides a consistent cross-check with potentially overlapping information. Turnout should remain close to the first round, with blank/null voting modestly higher."
+}

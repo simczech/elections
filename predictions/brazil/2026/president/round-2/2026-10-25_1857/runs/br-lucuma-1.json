@@ -1,0 +1,210 @@
+{
+ "method": "br-lucuma-1",
+ "election": "brazil/2026/president/round-2",
+ "shares_pct": {
+  "flavio": 51.2,
+  "lula": 48.8
+ },
+ "range80_pct": {
+  "flavio": [
+   48.7,
+   53.7
+  ],
+  "lula": [
+   46.3,
+   51.3
+  ]
+ },
+ "probabilities_pct": {
+  "p_win": {
+   "flavio": 73.1,
+   "lula": 26.9
+  }
+ },
+ "seats": null,
+ "seats_range80": null,
+ "turnout_pct": 79.0,
+ "turnout_range80_pct": [
+  76.8,
+  81.2
+ ],
+ "blank_null_pct": 4.9,
+ "key_inputs": [
+  "TSE confirmed the finalists and first-round shares: Flávio 47.03%, Lula 45.16%; normalizing their combined vote gives Flávio 51.01%. First-round turnout was 78.92%, with blank and null ballots totaling 4.77% of votes cast.",
+  "Latest individually verified Flávio valid-vote shares: Datafolha 51.0%; Quaest 51.0%; AtlasIntel 50.8%; CNT/MDA 50.7%; Nexus 50.5%; Ipespe 50.5%; PoderData 51.0%; Palver 50.5%, calculated from 50% versus 49% total-vote intentions; Futura 50.1%; Gerp 52.0%; Veritá 51.56%; Vox Brasil 49.4%; Alfa 52.0%; Real Time Big Data 52.0%; Indexa 50.6%; Meio/Ideia 51.1%; Instituto França 51.4%; Colectta 49.7%; DataTrends 51.9%; Data Ranking 49.6%. Fieldwork dates and sample sizes appear in the source entries.",
+  "Campaign movement favored Lula overall, without establishing a decisive final surge: Datafolha's published Flávio shares moved 52% to 51%, 50%, then 51%; Ipespe narrowed from 52.7% to 50.5%; Nexus moved from 52% on 13 October to 50.3% on 19 October and 50.5% on 24 October; Gerp narrowed from 53% on 21 October to 52% on 24 October. Earlier waves inform movement rather than being counted as independent final observations.",
+  "Judgmental relative weights: Datafolha 20, Quaest 18, AtlasIntel 14, CNT/MDA 12, Nexus 10, Ipespe 6, PoderData 4, Palver 3; Futura, Gerp, Veritá and Vox Brasil 2 each; Alfa, Real Time Big Data, Indexa, Meio/Ideia, Instituto França, Colectta and DataTrends 1 each; older Data Ranking 0.5. These yield Flávio 50.84%; the final estimate adds approximately 0.36 percentage points for turnout composition and residual polling bias.",
+  "Historical calibration: in the 2022 runoff, Datafolha and Quaest overstated Lula by 1.1 percentage points, AtlasIntel by 2.5, Ipespe by 2.1 and CNT/MDA by 0.2. Conversely, Futura overstated Jair Bolsonaro by 1.2 points, Gerp by 2.9 and Veritá by approximately 1.9 in its final stimulated poll. Datafolha's 2018 Bolsonaro estimate was only 0.13 points below the result. These opposing errors argue against applying a universal Bolsonaro correction.",
+  "For Nexus, Palver, PoderData, Indexa, Vox Brasil, Alfa, Real Time Big Data, Meio/Ideia, Instituto França, Colectta, DataTrends and Data Ranking, I did not establish a sufficiently comparable historical error series to justify a precise fixed house correction. Their contemporary differences are treated as uncertain methodological effects; large nominal samples do not eliminate those effects.",
+  "EL PAÍS reported average absolute candidate-share polling error of 1.3 percentage points across the six Brazilian presidential runoffs since 2002, and a 3.6-point understatement of Flávio in its 2026 first-round polling average. I allow a 1.95-point standard deviation for final candidate share, including common polling error, turnout composition and late movement; uncertainty is not divided by the number of institutes.",
+  "Nexus's standard final survey gave Flávio 50.5%, while its likely-voter specification gave 52.4% under a 21% abstention assumption. This is a sensitivity check, not a second independent poll; self-reported voting histories and the assumed abstention rate limit its reliability.",
+  "Flávio received endorsements from Augusto Cury, Ronaldo Caiado and Romeu Zema; Lula received support from eliminated left-wing candidates. Flávio's first-round strength in São Paulo and the other southeastern states supports his narrow advantage, while Lula's northeastern base makes differential mobilization consequential. Endorsements are not assumed to transfer entire electorates.",
+  "The 24 October EL PAÍS report quoted Polymarket at 77% for a Flávio victory. This supports modest favoritism but receives no direct numerical weight because market prices may share the polls' information and biases.",
+  "Turnout is anchored to 78.92% in this year's first round, 79.41% in the 2022 runoff and 78.70% in the 2018 runoff. Announced free public transport and competitive mobilization support approximately unchanged turnout. The invalid-vote estimate emphasizes this year's 4.77% and the 2022 runoff's 4.59%, rather than the much higher 9.57% in 2018.",
+  "Coverage limitation: the numerical core contains 20 individually sourced institutes, but conflicting archives prevented certification of an exhaustive campaign-poll census and every smaller institute's track record. Unverified releases were excluded; published valid-vote figures were preferred to recomputation from rounded totals."
+ ],
+ "sources": [
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+   "published": "2026-10-05",
+   "used_for": "Official verification of finalists, first-round shares and blank/null percentages."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/entenda-a-disputa-entre-lula-e-flavio-bolsonaro-pelo-brasil-em-16-graficos.shtml",
+   "published": "2026-10-07",
+   "used_for": "First-round geography, turnout and invalid-ballot baseline."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-49-em-empate-tecnico.shtml",
+   "published": "2026-10-24",
+   "used_for": "Datafolha: 51/49; fieldwork 23–24 October; n=4,050; margin ±2 points; campaign trajectory, final debate and mobilization context."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-flavio-tem-51-dos-votos-validos-lula-49/",
+   "published": "2026-10-24",
+   "used_for": "Quaest: 51/49; fieldwork 23–24 October; n=3,702; margin ±2 points."
+  },
+  {
+   "url": "https://veja.abril.com.br/politica/a-ultima-pesquisa-atlasintel-sobre-a-disputa-flavio-x-lula-antes-do-segundo-turno/",
+   "published": "2026-10-24",
+   "used_for": "AtlasIntel: 50.8/49.2; fieldwork 18–23 October; n=4,990; margin ±1 point."
+  },
+  {
+   "url": "https://www.infomoney.com.br/politica/cnt-mda-flavio-tem-463-e-lula-45-dos-votos-totais-configurando-empate-tecnico/",
+   "published": "2026-10-24",
+   "used_for": "CNT/MDA: 50.7/49.3; fieldwork 21–23 October; n=2,002, face-to-face; margin ±2.2 points; blank/null 5.8%."
+  },
+  {
+   "url": "https://portaln10.com.br/politica/eleicoes/btg-nexus-flavio-tem-505-dos-votos-validos-e-lula-495-356086/",
+   "published": "2026-10-24",
+   "used_for": "Nexus: 50.5/49.5; fieldwork 23–24 October; n=2,000, telephone; reported margin ±2.2 points; earlier waves and likely-voter sensitivity."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-abrapel-flavio-tem-505-dos-votos-validos-lula-495/",
+   "published": "2026-10-23",
+   "used_for": "Ipespe: 50.5/49.5; fieldwork 20–22 October; n=1,500, telephone; margin ±2.6 points; narrowing from first runoff survey."
+  },
+  {
+   "url": "https://www.poder360.com.br/poderdata/pesquisa-poderdata-aya-leia-os-resultados-de-lula-e-flavio-na-reta-final-do-2o-turno-3/",
+   "published": "2026-10-22",
+   "used_for": "PoderData: 51/49; n=4,000, telephone; margin ±1.6 points; prior wave 52/48. Secondary reports place fieldwork at 19–21 October, with conflicting end dates."
+  },
+  {
+   "url": "https://noticias.uol.com.br/eleicoes/2026/10/24/pesquisa-palver-presidencial-segundo-turno-24-de-outubro.ghtm",
+   "published": "2026-10-24",
+   "used_for": "Palver: total-vote intentions 50/49, normalized to 50.5/49.5; fieldwork 22–24 October; n=5,000; reported margin ±2.2 points."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-501-dos-votos-validos-no-2o-turno-lula-499/",
+   "published": "2026-10-24",
+   "used_for": "Futura: 50.1/49.9; fieldwork 23–24 October; n=2,000; margin ±2.2 points."
+  },
+  {
+   "url": "https://www.infomoney.com.br/politica/na-vespera-do-2o-turno-gerp-mostra-49-para-flavio-contra-46-de-lula/",
+   "published": "2026-10-24",
+   "used_for": "Gerp: 52/48; fieldwork 22–24 October; n=2,400, telephone; margin ±2 points; preceding wave 53/47."
+  },
+  {
+   "url": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-5156-e-lula-4844-no-2o-turno/",
+   "published": "2026-10-24",
+   "used_for": "Veritá: 51.56/48.44; fieldwork 19–23 October; n=15,554, automated responses; margin ±1 point; preceding wave 51.3/48.7."
+  },
+  {
+   "url": "https://veja.abril.com.br/politica/a-nova-pesquisa-vox-brasil-sobre-a-disputa-flavio-x-lula-a-dois-dias-do-segundo-turno/",
+   "published": "2026-10-23",
+   "used_for": "Vox Brasil: 49.4/50.6; fieldwork 20–22 October; n=2,100; margin ±2.15 points; preceding wave 49/51."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/alfa-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/",
+   "published": "2026-10-23",
+   "used_for": "Alfa: 52/48; fieldwork 18–22 October; n=2,700; margin ±1.9 points."
+  },
+  {
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-contra-48-de-lula-em-votos-validos-diz-pesquisa/",
+   "published": "2026-10-23",
+   "used_for": "Real Time Big Data: 52/48; fieldwork 19–22 October; n=2,000; margin ±2 points."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-flavio-tem-506-dos-votos-validos-lula-494/",
+   "published": "2026-10-22",
+   "used_for": "Indexa: 50.6/49.4; fieldwork 20–21 October; n=2,000, telephone; margin ±2.2 points; preceding wave 51/49."
+  },
+  {
+   "url": "https://www.em.com.br/politica/2026/10/7524673-meio-ideia-flavio-tem-511-e-lula-489-dos-votos-validos.html",
+   "published": "2026-10-21",
+   "used_for": "Meio/Ideia: 51.1/48.9; fieldwork 15–19 October; n=1,500, telephone; margin ±2.5 points."
+  },
+  {
+   "url": "https://www.fmimperial.com.br/noticias/38902/flavio-tem-51-4-contra-48-6-de-lula-em-votos-validos-diz-pesquisa",
+   "published": "2026-10-24",
+   "used_for": "Instituto França: 51.4/48.6; fieldwork 21–23 October; n=1,537; margin ±2.5 points."
+  },
+  {
+   "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/24/pesquisa-brazil-economy-colectta-lula-flavio/",
+   "published": "2026-10-24",
+   "used_for": "Colectta: 49.7/50.3; fieldwork 23 October; n=3,000, household interviews; margin ±2 points."
+  },
+  {
+   "url": "https://didigalvao.com.br/pesquisa-datatrends-aponta-flavio-bolsonaro-com-519-e-lula-com-481-dos-votos-validos/",
+   "published": "2026-10-23",
+   "used_for": "DataTrends: 51.9/48.1; fieldwork 19–21 October; n=2,000; margin ±2.19 points; preceding wave 51.5/48.5."
+  },
+  {
+   "url": "https://fonte83.com.br/politica/pesquisa-nacional-data-ranking-lula-tem-504-e-flavio-496-no-2o-turno/",
+   "published": "2026-10-20",
+   "used_for": "Data Ranking: 49.6/50.4; fieldwork 14–16 October; n=2,100, household interviews; margin ±2.15 points excludes cluster design effects."
+  },
+  {
+   "url": "https://www.metropoles.com/brasil/eleicoes-2022/parana-pesquisas-e-instituto-que-mais-chegou-perto-do-resultado-do-2-turno",
+   "published": "2022-10-31",
+   "used_for": "2022 final polling estimates for Datafolha, Quaest, AtlasIntel, CNT/MDA and Ipespe, compared independently with official results."
+  },
+  {
+   "url": "https://exame.com/brasil/pesquisa-presidente-modalmais-futura-bolsonaro-tem-503-dos-votos-validos-e-lula-tem-497/",
+   "published": "2022-10-28",
+   "used_for": "Futura's 2022 runoff estimate of Bolsonaro 50.3%, informing historical house-error assessment."
+  },
+  {
+   "url": "https://odia.ig.com.br/eleicoes/2022/10/6512957-bolsonaro-e-lula-estao-empatados-tecnicamente-diz-pesquisa-gerp.html",
+   "published": "2022-10-27",
+   "used_for": "Gerp's 2022 runoff estimate of Bolsonaro 52%, informing historical house-error assessment."
+  },
+  {
+   "url": "https://noticias.r7.com/eleicoes-2022/bolsonaro-tem-51-das-intencoes-de-voto-e-lula-49-aponta-verita-29102022/",
+   "published": "2022-10-29",
+   "used_for": "Veritá's final 2022 stimulated estimate of Bolsonaro 51%; distinguishes it from the 51.2% spontaneous estimate."
+  },
+  {
+   "url": "https://www1.folha.uol.com.br/poder/2018/10/pesquisa-datafolha-mostra-bolsonaro-com-55-e-haddad-com-45-na-vespera-da-eleicao.shtml",
+   "published": "2018-10-27",
+   "used_for": "Datafolha's final 2018 estimate of Bolsonaro 55%, illustrating that first-round underestimation need not persist into a runoff."
+  },
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/eleicoes-2018-justica-eleitoral-conclui-totalizacao-dos-votos-do-segundo-turno",
+   "published": "2018-10-30",
+   "used_for": "Official 2018 runoff result, turnout and blank/null baseline."
+  },
+  {
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno/",
+   "published": "2022-10-31",
+   "used_for": "Official 2022 runoff shares, turnout 79.41%, and blank/null total 4.59%."
+  },
+  {
+   "url": "https://elpais.com/america/2026-10-24/puede-lula-remontar-a-flavio-bolsonaro-esto-es-lo-que-dicen-las-encuestas.html",
+   "published": "2026-10-24",
+   "used_for": "Historical polling-error summary, 2026 first-round miss and contemporaneous Polymarket quote; its own election forecast was excluded."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+   "published": "2026-10-08",
+   "used_for": "Endorsements from eliminated candidates and parties."
+  },
+  {
+   "url": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-dia-do-2o-turno-tem-transporte-publico-gratuito-veja-regras/",
+   "published": "2026-10-24",
+   "used_for": "Pre-election announcement of free public transport, informing turnout expectations."
+  }
+ ],
+ "contamination": "No runoff counts, exit-poll figures or election-day observed turnout were encountered. Poll searches incidentally exposed third-party pre-election forecasts, which were excluded: EL PAÍS's 70% Flávio win probability in its 24 October article cited above; 51.8/48.2 forecasts at https://eleicoes.scoras.com.br/ and https://eleicaobr.netlify.app/polls/2; and a 51.30/48.70 forecast with 78.86% turnout at https://urna.fyi/diario/2026-10-23. A cached 24 October polling preview at https://ulisses-2026.vercel.app/ opened as a dynamically updated 25 October page containing empty live-results placeholders and prediction-market quotes of 82/21; those updates were excluded. Other dynamically updated aggregator figures were not used unless independently verified in dated pre-cutoff reports.",
+ "notes": "Flávio is a modest favorite, with a weighted polling baseline of 50.8% adjusted to 51.2% for turnout composition and possible residual underestimation. The adjustment is much smaller than the first-round polling miss because comparable runoff errors are smaller and individual institutes have erred in both directions. Endorsements and first-round geography favor Flávio, while Lula's narrowing deficit and mobilization keep the contest competitive. A candidate-share standard deviation of 1.95 percentage points produces the stated 80% ranges and win probabilities while retaining substantial shared polling uncertainty. Turnout and invalid ballots are anchored primarily to this year's first round and the closely contested 2022 runoff."
+}

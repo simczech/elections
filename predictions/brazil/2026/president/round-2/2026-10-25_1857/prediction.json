@@ -1,0 +1,389 @@
+{
+ "schema": 1,
+ "nonce": "3e77f2ef0440447090e7c4de95756542",
+ "election": {
+  "id": "brazil/2026/president/round-2",
+  "name": "Brazil, presidential election, runoff",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T21:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T18:58:06+01:00",
+ "cutoff": "2026-10-25T12:00:00+01:00",
+ "main": "original",
+ "methods": [
+  {
+   "id": "original",
+   "name": "Simczech Original 👑"
+  },
+  {
+   "id": "loquat",
+   "name": "Simczech Loquat"
+  },
+  {
+   "id": "lucuma",
+   "name": "Simczech Lucuma"
+  }
+ ],
+ "options": [
+  {
+   "id": "flavio",
+   "name": "Flávio Bolsonaro",
+   "detail": "PL",
+   "short": "Flávio Bolsonaro"
+  },
+  {
+   "id": "lula",
+   "name": "Luiz Inácio Lula da Silva",
+   "detail": "PT",
+   "short": "Lula"
+  }
+ ],
+ "national": {
+  "original": {
+   "shares_pct": {
+    "flavio": 51.6,
+    "lula": 48.4
+   },
+   "range80_pct": {
+    "flavio": [
+     49.2,
+     53.9
+    ],
+    "lula": [
+     46.1,
+     50.8
+    ]
+   },
+   "probabilities_pct": {
+    "p_win": {
+     "flavio": 80.6,
+     "lula": 19.4
+    }
+   },
+   "turnout_pct": 79.1,
+   "turnout_range80_pct": [
+    77.3,
+    80.9
+   ],
+   "blank_null_pct": 5.1,
+   "seats": null,
+   "seats_range80": null
+  },
+  "loquat": {
+   "shares_pct": {
+    "flavio": 51.5,
+    "lula": 48.5
+   },
+   "range80_pct": {
+    "flavio": [
+     49.6,
+     53.4
+    ],
+    "lula": [
+     46.6,
+     50.4
+    ]
+   },
+   "probabilities_pct": {
+    "p_win": {
+     "flavio": 83.7,
+     "lula": 16.3
+    }
+   },
+   "seats": null,
+   "seats_range80": null,
+   "turnout_pct": 79.3,
+   "turnout_range80_pct": [
+    78.0,
+    80.8
+   ],
+   "blank_null_pct": 5.3
+  },
+  "lucuma": {
+   "shares_pct": {
+    "flavio": 51.6,
+    "lula": 48.4
+   },
+   "range80_pct": {
+    "flavio": [
+     48.9,
+     54.4
+    ],
+    "lula": [
+     45.6,
+     51.1
+    ]
+   },
+   "probabilities_pct": {
+    "p_win": {
+     "flavio": 77.4,
+     "lula": 22.6
+    }
+   },
+   "turnout_pct": 78.9,
+   "turnout_range80_pct": [
+    76.7,
+    81.1
+   ],
+   "blank_null_pct": 5.0,
+   "seats": null,
+   "seats_range80": null
+  }
+ },
+ "regions": [
+  {
+   "code": "AC",
+   "name": "Acre",
+   "turnout_pct": 76.1,
+   "shares_pct": {
+    "flavio": 68.9,
+    "lula": 31.1
+   }
+  },
+  {
+   "code": "AL",
+   "name": "Alagoas",
+   "turnout_pct": 78.8,
+   "shares_pct": {
+    "flavio": 43.0,
+    "lula": 57.0
+   }
+  },
+  {
+   "code": "AM",
+   "name": "Amazonas",
+   "turnout_pct": 78.7,
+   "shares_pct": {
+    "flavio": 48.8,
+    "lula": 51.2
+   }
+  },
+  {
+   "code": "AP",
+   "name": "Amapá",
+   "turnout_pct": 78.1,
+   "shares_pct": {
+    "flavio": 50.7,
+    "lula": 49.3
+   }
+  },
+  {
+   "code": "BA",
+   "name": "Bahia",
+   "turnout_pct": 80.5,
+   "shares_pct": {
+    "flavio": 31.3,
+    "lula": 68.7
+   }
+  },
+  {
+   "code": "CE",
+   "name": "Ceará",
+   "turnout_pct": 84.6,
+   "shares_pct": {
+    "flavio": 34.1,
+    "lula": 65.9
+   }
+  },
+  {
+   "code": "DF",
+   "name": "Distrito Federal",
+   "turnout_pct": 81.6,
+   "shares_pct": {
+    "flavio": 57.8,
+    "lula": 42.2
+   }
+  },
+  {
+   "code": "ES",
+   "name": "Espírito Santo",
+   "turnout_pct": 78.7,
+   "shares_pct": {
+    "flavio": 59.2,
+    "lula": 40.8
+   }
+  },
+  {
+   "code": "GO",
+   "name": "Goiás",
+   "turnout_pct": 78.7,
+   "shares_pct": {
+    "flavio": 63.9,
+    "lula": 36.1
+   }
+  },
+  {
+   "code": "MA",
+   "name": "Maranhão",
+   "turnout_pct": 79.5,
+   "shares_pct": {
+    "flavio": 33.5,
+    "lula": 66.5
+   }
+  },
+  {
+   "code": "MG",
+   "name": "Minas Gerais",
+   "turnout_pct": 78.0,
+   "shares_pct": {
+    "flavio": 53.2,
+    "lula": 46.8
+   }
+  },
+  {
+   "code": "MS",
+   "name": "Mato Grosso do Sul",
+   "turnout_pct": 75.9,
+   "shares_pct": {
+    "flavio": 62.7,
+    "lula": 37.3
+   }
+  },
+  {
+   "code": "MT",
+   "name": "Mato Grosso",
+   "turnout_pct": 78.2,
+   "shares_pct": {
+    "flavio": 68.6,
+    "lula": 31.4
+   }
+  },
+  {
+   "code": "PA",
+   "name": "Pará",
+   "turnout_pct": 80.0,
+   "shares_pct": {
+    "flavio": 47.5,
+    "lula": 52.5
+   }
+  },
+  {
+   "code": "PB",
+   "name": "Paraíba",
+   "turnout_pct": 82.9,
+   "shares_pct": {
+    "flavio": 35.9,
+    "lula": 64.1
+   }
+  },
+  {
+   "code": "PE",
+   "name": "Pernambuco",
+   "turnout_pct": 82.4,
+   "shares_pct": {
+    "flavio": 33.9,
+    "lula": 66.1
+   }
+  },
+  {
+   "code": "PI",
+   "name": "Piauí",
+   "turnout_pct": 82.1,
+   "shares_pct": {
+    "flavio": 26.6,
+    "lula": 73.4
+   }
+  },
+  {
+   "code": "PR",
+   "name": "Paraná",
+   "turnout_pct": 79.9,
+   "shares_pct": {
+    "flavio": 65.4,
+    "lula": 34.6
+   }
+  },
+  {
+   "code": "RJ",
+   "name": "Rio de Janeiro",
+   "turnout_pct": 76.9,
+   "shares_pct": {
+    "flavio": 57.3,
+    "lula": 42.7
+   }
+  },
+  {
+   "code": "RN",
+   "name": "Rio Grande do Norte",
+   "turnout_pct": 82.0,
+   "shares_pct": {
+    "flavio": 37.6,
+    "lula": 62.4
+   }
+  },
+  {
+   "code": "RO",
+   "name": "Rondônia",
+   "turnout_pct": 78.2,
+   "shares_pct": {
+    "flavio": 71.6,
+    "lula": 28.4
+   }
+  },
+  {
+   "code": "RR",
+   "name": "Roraima",
+   "turnout_pct": 79.4,
+   "shares_pct": {
+    "flavio": 74.8,
+    "lula": 25.2
+   }
+  },
+  {
+   "code": "RS",
+   "name": "Rio Grande do Sul",
+   "turnout_pct": 78.9,
+   "shares_pct": {
+    "flavio": 61.0,
+    "lula": 39.0
+   }
+  },
+  {
+   "code": "SC",
+   "name": "Santa Catarina",
+   "turnout_pct": 81.7,
+   "shares_pct": {
+    "flavio": 71.8,
+    "lula": 28.2
+   }
+  },
+  {
+   "code": "SE",
+   "name": "Sergipe",
+   "turnout_pct": 82.3,
+   "shares_pct": {
+    "flavio": 34.0,
+    "lula": 66.0
+   }
+  },
+  {
+   "code": "SP",
+   "name": "São Paulo",
+   "turnout_pct": 77.7,
+   "shares_pct": {
+    "flavio": 57.8,
+    "lula": 42.2
+   }
+  },
+  {
+   "code": "TO",
+   "name": "Tocantins",
+   "turnout_pct": 80.4,
+   "shares_pct": {
+    "flavio": 54.0,
+    "lula": 46.0
+   }
+  },
+  {
+   "code": "ZZ",
+   "name": "Abroad",
+   "turnout_pct": 37.7,
+   "shares_pct": {
+    "flavio": 48.7,
+    "lula": 51.3
+   }
+  }
+ ],
+ "municipalFile": "municipalities.csv",
+ "note": "Second version, made before the polls closed: the same three methods with four more research runs (six in all), turnout as in the first version. The first version, sealed at 11:57 CET, is also on GitHub."
+}
