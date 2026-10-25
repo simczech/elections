@@ -1,0 +1,147 @@
+{
+ "schema": 1,
+ "nonce": "5d351ad4f2c81bc79617a074a7038166",
+ "election": "bulgaria/2026/president/round-1",
+ "madeAt": "2026-10-25T19:18:45+01:00",
+ "kind": "live estimate: made during or after voting, with election-day information; not the sealed prediction",
+ "used": "Made after the polls closed, from five exit polls and the official turnout.",
+ "estimate": {
+  "shares_pct": {
+   "iotova": 36.0,
+   "gyurov": 32.0,
+   "kostadinov": 13.5,
+   "other": 14.6,
+   "none": 3.9
+  },
+  "range80_pct": {
+   "iotova": [
+    32.5,
+    39.5
+   ],
+   "gyurov": [
+    29.0,
+    35.1
+   ],
+   "kostadinov": [
+    11.3,
+    15.9
+   ],
+   "other": [
+    11.8,
+    17.7
+   ],
+   "none": [
+    2.2,
+    5.6
+   ]
+  },
+  "probabilities_pct": {
+   "p_first": {
+    "iotova": 85.0,
+    "gyurov": 15.0,
+    "kostadinov": 0.0
+   },
+   "p_top2": {
+    "iotova": 99.9,
+    "gyurov": 99.9,
+    "kostadinov": 0.1
+   },
+   "p_runoff": 100.0
+  },
+  "turnout_pct": 23.3,
+  "turnout_range80_pct": [
+   21.5,
+   26.0
+  ],
+  "blank_null_pct": null,
+  "seats": null
+ },
+ "key_inputs": [
+  "Evidence cutoff: 2026-10-25 19:17 CET, equivalent to 20:17 Bulgarian time; all election-day publication times below are Bulgarian time, UTC+02:00.",
+  "User-supplied prior, sealed 18:57 CET: iotova 45.9%, gyurov 27.5%, kostadinov 11.1%, other 12.7%, none 2.8%; turnout 39.5%.",
+  "Alpha Research, BNT article displayed 20:02, estimates as of 19:00: iotova 35.3%, gyurov 32.4%, kostadinov 12.6%, none 4.9%, implying aggregate other 14.8%; turnout 22.3%.",
+  "Trend, NOVA published 19:35 and updated 19:52, estimates as of 19:00: iotova 36.5%, gyurov 32.4%, kostadinov 14.0%, none 3.6%, implying aggregate other 13.5%; turnout 21.3%.",
+  "Myara, NOVA published 19:35 and updated 19:52: initial iotova 35.2%, gyurov 32.2%, kostadinov 13.4%, none 4.8%, aggregate other 14.4%; turnout 21.2%. BNT's update listed at 20:01 gives estimates as of 20:00 of 35.6%, 32.5%, 13.5%, none 4.7%, implying other 13.7%, and turnout 22.2%; this replaces the earlier wave.",
+  "Gallup International, Dnes published 19:50, estimates as of 19:30: iotova 36.6%, gyurov 31.8%, kostadinov 15.7%, none 1.6%; the remaining named candidates plus its 'others' category total 14.3%; turnout 24.4%.",
+  "Market Links, Darik published 19:39: iotova 32.2%, gyurov 31.6%, turnout 21.03%. Kostadinov is reported as 13.05% there but 13.5% in Webcafe's 20:00 table; use 13.5% with reduced weight. A complete other/none split was not verified, so the missing split is estimated from the other surveys rather than treated as observed.",
+  "CEC turnout table, publication timestamp unavailable: 385092 of 6637238 registered electors voted by 11:00, or 5.80%; 1058669 by 16:00, or 15.95%. BNT's 17:01 report of the CEC briefing instead gives 16.04%, with Sofia district 23 at 25.9% and Kardzhali at 6.77%; the official table receives precedence.",
+  "CEC results navigation still displayed 'coming soon'; no usable partial official candidate count or verified parallel-count projection was found by the cutoff. Consequently no geographic extrapolation from early-counting precincts is applied.",
+  "BNT reporting published 18:32 describes exceptionally low participation in Turkey despite 78 polling stations; this supports low turnout but supplies no numerical candidate-share adjustment.",
+  "Historical calibration: exit polls published 2021-11-14 at 20:01 gave Gerdzhikov 26.5% for Alpha Research, 25.0% for Gallup, 24.6% for Trend and 23.03% for Market Links, against the final CEC 22.83%; Radev's final share was 49.42%. These errors justify several-point uncertainty and treating pollster errors as correlated, without mechanically transferring candidate-specific bias.",
+  "Historical turnout calibration: Gallup's 2021-11-14 closing estimate was 36.9%, while the official first-round turnout reported 2021-11-17 was 40.50%. Today's turnout estimate therefore allows for late voting, overseas participation and denominator differences, with a wider upper tail.",
+  "Article 93 requires both a majority of valid votes and participation exceeding half the electorate for a first-round victory; today's turnout evidence makes a runoff effectively certain."
+ ],
+ "sources": [
+  {
+   "url": "https://bntnews.bg/news/parvi-ekzitpol-kam-1900-ch-balotazh-mezhdu-iliyana-yotova-i-andrei-gyurov-sochat-danni-na-alfa-risarch-1418824news.html",
+   "published": "2026-10-25T20:02:00+02:00",
+   "used_for": "Alpha Research exit-poll shares, none and turnout."
+  },
+  {
+   "url": "https://nova.bg/news/view/2026/10/25/556734/exit-poll-йотова-и-вълчев-водят-с-малка-разлика-отиват-на-балотаж-срещу-гюров-и-кандев/",
+   "published": "2026-10-25T19:35:00+02:00; updated 19:52",
+   "used_for": "Trend and initial Myara exit polls, including none and turnout."
+  },
+  {
+   "url": "https://bntnews.bg/news/kam-2000-ch-samo-3-razlika-mezhdu-yotova-valchev-i-gyurov-kandev-sochat-danni-na-myara-obnovyava-se-1418819news.html",
+   "published": "2026-10-25T19:41:00+02:00; update listed at 20:01",
+   "used_for": "Myara's 20:00 estimates, replacing its earlier wave."
+  },
+  {
+   "url": "https://www.dnes.bg/a/1-bulgaria/739817-galap-iliyana-yotova-pecheli-s-366-gyurov-ya-sledva-s-318",
+   "published": "2026-10-25T19:50:00+02:00",
+   "used_for": "Complete Gallup exit-poll distribution and turnout."
+  },
+  {
+   "url": "https://darik.bg/market-links-pod-1-razlika-mezdu-iliana-iotova-i-andrei-gurov~549113.html",
+   "published": "2026-10-25T19:39:00+02:00",
+   "used_for": "Market Links leading shares and turnout; conflicting Kostadinov transcription."
+  },
+  {
+   "url": "https://webcafe.bg/vlast/balgariya-izbira-prezident-rezultatite-na-zhivo.html",
+   "published": "2026-10-25T20:00:00+02:00",
+   "used_for": "Cross-check of four agencies and Market Links Kostadinov share of 13.5%."
+  },
+  {
+   "url": "https://results.cik.bg/pvr202610/aktivnost/index.html",
+   "published": "2026-10-25; publication time not displayed",
+   "used_for": "Official turnout numerators and denominator; candidate results marked as forthcoming."
+  },
+  {
+   "url": "https://bntnews.bg/news/cik-1604-e-izbiratelnata-aktivnost-kam-1600-ch-1418778news.html",
+   "published": "2026-10-25T17:01:00+02:00",
+   "used_for": "CEC briefing turnout and geographic participation differences."
+  },
+  {
+   "url": "https://bntnews.bg/news/izselnicite-v-turciya-ne-otidoha-do-urnite-rekordno-nisak-vot-v-yuzhnata-ni-sasedka-1418808news.html",
+   "published": "2026-10-25T18:32:00+02:00",
+   "used_for": "Qualitative evidence of very low participation in Turkey."
+  },
+  {
+   "url": "https://offnews.bg/izbori/parvi-rezultati-radev-i-gerdzhikov-na-balotazh-s-dvojna-razlika-764755.html",
+   "published": "2021-11-14T20:01:00+02:00",
+   "used_for": "Historical presidential exit-poll errors across four agencies."
+  },
+  {
+   "url": "https://results.cik.bg/pvrns2021/tur1/rezultati/index.html",
+   "published": "2021 final results; publication time not displayed",
+   "used_for": "Official historical candidate shares and valid-ballot base including none."
+  },
+  {
+   "url": "https://old-news.bnr.bg/izbori____/post/101556933/galap-balotaj-za-prezident-7-formacii-v-ns-pp-izprevarva-gerb-sds",
+   "published": "2021-11-14T20:00:00+02:00; updated 20:24",
+   "used_for": "Historical Gallup presidential turnout estimate of 36.9%."
+  },
+  {
+   "url": "https://old.mediapool.bg/okonchatelno-aktivnostta-na-prezidentskiya-vot-na-14-noemvri-e-bila-4050-news328973.html",
+   "published": "2021-11-17T10:37:00+02:00",
+   "used_for": "Official historical turnout of 40.50%."
+  },
+  {
+   "url": "https://www.parliament.bg/en/const",
+   "published": "Standing constitutional text; page publication time not displayed",
+   "used_for": "Article 93 first-round victory and runoff requirements."
+  }
+ ],
+ "notes": "The five exit polls and exceptionally low official turnout sharply reduce Iotova's lead and largely displace the sealed prior; approximate share weights are prior 5%, Alpha Research 30%, Trend 20%, Myara 20%, Gallup 15% and Market Links 10%, with missing categories imputed. Historical errors inform broad, correlated uncertainty rather than fixed partisan corrections, while incomplete Market Links reporting and disagreement over none limit precision. Turnout includes an allowance for late and overseas votes, but no official candidate count supports a tighter estimate. Iotova remains favoured to finish first, both leading candidates are overwhelmingly likely to qualify, and a runoff is effectively certain; blank/null ballots remain unestimated and separate from valid none ballots."
+}
