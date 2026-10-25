@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "nonce": "9dce16461edbf3fbc28fd2c10273aad9",
+ "election": "brazil/2026/president/round-2",
+ "madeAt": "2026-10-25T20:11:14+01:00",
+ "kind": "scenario model made during voting, before the polls closed; not the sealed prediction",
+ "how": "plain average of the final polls (Flávio 50.82, two-way) shifted 1.27 points toward Lula: the mean size of the largest pollsters' runoff errors in 2014, 2018 and 2022, taken the other way",
+ "estimate": {
+  "shares_pct": {
+   "flavio": 49.5,
+   "lula": 50.5
+  },
+  "range80_pct": {
+   "flavio": [
+    47.3,
+    51.7
+   ],
+   "lula": [
+    48.3,
+    52.7
+   ]
+  },
+  "probabilities_pct": {
+   "p_win": {
+    "flavio": 38.4,
+    "lula": 61.6
+   }
+  },
+  "turnout_pct": 79.1,
+  "blank_null_pct": 5.1
+ },
+ "note": "Added during voting, before the polls closed: a scenario in which the polls this time overrate Flávio Bolsonaro by as much as they underrated his side before."
+}
