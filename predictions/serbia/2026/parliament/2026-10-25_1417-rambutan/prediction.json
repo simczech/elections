@@ -1,0 +1,105 @@
+{
+ "schema": 1,
+ "nonce": "ba67b94dd1a815ed373a92623bb68438",
+ "election": {
+  "id": "serbia/2026/parliament",
+  "name": "Serbia, National Assembly election",
+  "date": "2026-10-25",
+  "pollsClose": "2026-10-25T20:00:00+01:00"
+ },
+ "madeAt": "2026-10-25T14:17:23+01:00",
+ "cutoff": "2026-10-25T07:00:00+01:00",
+ "series": {
+  "id": "rambutan",
+  "name": "Simczech Rambutan",
+  "experimental": true,
+  "inOriginal": false
+ },
+ "method": "Archetype opinions. Groups of voters by their vote in the last comparable election and where they live, sized by the official counts; each archetype answers in the first person, as a simulated voter, with its chance of voting today and the chance of each option, from a campaign brief that leaves out the polls and the betting markets. National shares = the answers weighted by each archetype's size and chance of voting.",
+ "national": {
+  "shares_pct": {
+   "sns": 37.0,
+   "students": 37.7,
+   "sps": 6.2,
+   "authentic_right": 6.7,
+   "european_serbia": 5.4,
+   "svm": 1.7,
+   "other_minority": 1.6,
+   "other": 3.7
+  },
+  "seats": {
+   "sns": 97,
+   "students": 98,
+   "sps": 16,
+   "authentic_right": 17,
+   "european_serbia": 14,
+   "svm": 6,
+   "other_minority": 2,
+   "other": 0
+  },
+  "archetypes": 48,
+  "answers": 96,
+  "missing_archetypes": 0
+ },
+ "variants": {
+  "high_effort": {
+   "shares_pct": {
+    "sns": 36.9,
+    "students": 37.9,
+    "sps": 6.1,
+    "authentic_right": 6.7,
+    "european_serbia": 5.6,
+    "svm": 1.8,
+    "other_minority": 1.5,
+    "other": 3.5
+   },
+   "seats": {
+    "sns": 96,
+    "students": 99,
+    "sps": 16,
+    "authentic_right": 17,
+    "european_serbia": 14,
+    "svm": 6,
+    "other_minority": 2,
+    "other": 0
+   },
+   "archetypes": 48,
+   "answers": 96,
+   "missing_archetypes": 0,
+   "about": "the same archetypes, answered twice more with more deliberation"
+  },
+  "fine": {
+   "shares_pct": {
+    "sns": 37.4,
+    "students": 37.3,
+    "sps": 6.2,
+    "authentic_right": 6.5,
+    "european_serbia": 5.3,
+    "svm": 1.6,
+    "other_minority": 2.2,
+    "other": 3.5
+   },
+   "seats": {
+    "sns": 98,
+    "students": 97,
+    "sps": 16,
+    "authentic_right": 17,
+    "european_serbia": 13,
+    "svm": 5,
+    "other_minority": 4,
+    "other": 0
+   },
+   "archetypes": 268,
+   "answers": 268,
+   "missing_archetypes": 0,
+   "about": "the same groups by province, district or state, answered once"
+  }
+ },
+ "files": {
+  "archetypes": "archetypes.csv",
+  "high_effort": "archetypes-high-effort.csv",
+  "fine": "archetypes-fine.csv",
+  "questionnaire": "questionnaire.md"
+ },
+ "note": "Experimental: not part of Simczech Original and not shown on the page. Sealed before the polls closed, made only from material published before the polls opened. Turnout is not given."
+}
